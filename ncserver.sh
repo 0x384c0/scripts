@@ -1,0 +1,1 @@
+while true ; do echo "HTTP/1.1 200 OK\n\n{\"id\" : 1}" | nc -l 6006 || break; done

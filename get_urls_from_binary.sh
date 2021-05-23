@@ -1,0 +1,1 @@
+strings -o $1 | grep -E '(http|https|ftp)://[^/"]+'

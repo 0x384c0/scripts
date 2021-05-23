@@ -1,0 +1,1 @@
+d:\Applications\Distr\System\windows\pssuspend64.exe wlms.exe

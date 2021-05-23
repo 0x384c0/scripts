@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=gqrx
+StartupNotify=false
+Terminal=true
+Name[en_US]=gqrx

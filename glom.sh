@@ -1,0 +1,1 @@
+git log --pretty="%s" --author=$USER --since="5am"
