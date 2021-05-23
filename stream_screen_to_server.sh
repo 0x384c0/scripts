@@ -1,0 +1,1 @@
+ffmpeg -f avfoundation -i "1:0" -pix_fmt uyvy422 -vcodec libx264 -b:v 500k -crf 30 -intra-refresh 1 -g 1 -preset veryfast -tune zerolatency -f flv  "rtmp://localhost:1935/live/stream"

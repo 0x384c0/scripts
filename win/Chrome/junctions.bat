@@ -1,0 +1,2 @@
+junction64 "C:\Users\Admin\AppData\Local\Google\Chrome" D:\Applications\Installed\WEB\Chrome
+junction64 "C:\Program Files (x86)\Google\Chrome\Application" D:\Applications\Installed\WEB\Chrome\Application

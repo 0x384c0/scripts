@@ -1,0 +1,1 @@
+ffmpeg -i $1 -vf "split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 $2.gif

@@ -1,0 +1,3 @@
+netsh advfirewall set privateprofile firewallpolicy blockinbound,blockoutbound
+netsh advfirewall set publicprofile firewallpolicy blockinbound,blockoutbound
+netsh advfirewall set domainprofile firewallpolicy blockinbound,blockoutbound

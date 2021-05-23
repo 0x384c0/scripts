@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=gnuradio-companion
+StartupNotify=false
+Terminal=true
+Name[en_US]=gnuradio-companion

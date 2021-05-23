@@ -1,0 +1,35 @@
+body > div > *  {
+    animation-delay: -0.75s;
+    animation-duration: .25s;
+    animation-name: keyframes1;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 10%;
+}
+body > div > * {
+    animation-delay: -0.75s;
+    animation-duration: .25s;
+    animation-name: keyframes2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 30% 5%;
+}
+@keyframes keyframes1 {
+    0% {
+        transform: rotate(-1deg);
+        animation-timing-function: ease-in;
+   }
+    50% {
+        transform: rotate(1.5deg);
+        animation-timing-function: ease-out;
+   }
+}
+@keyframes keyframes2 {
+    0% {
+        transform: rotate(1deg);
+        animation-timing-function: ease-in;
+   }
+    50% {
+        transform: rotate(-1.5deg);
+        animation-timing-function: ease-out;
+   }
+}
