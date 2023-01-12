@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Touhou Radio Imitator
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/0x384c0/scripts/blob/master/user_scripts/touhou_radio.js
+// @version      0.2
 // @description  Plays random song from http://151.80.40.155/
-// @author       You
+// @author       0x384c0
 // @match        http://151.80.40.155/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=40.155
 // @grant        none
@@ -13,8 +13,8 @@
     'use strict';
 
     class RandomPlayer{
-        host = "http://151.80.40.155/tlmc/";
-        soundsFile = "otokei.json";
+        host = "/tlmc/";
+        soundsFile = "/otokei.json";
         soundsDatabaseKey = 'soundsList';
 
         //Utils
@@ -54,6 +54,8 @@
                 randomPlayer.musicPlayer.play();
             };
             document.body.innerHTML = '';
+            document.body.append(`${this.currentPlaylist.length} songs`);
+            document.body.appendChild(document.createElement("br"));
             document.body.appendChild(this.musicPlayer);
             this.setSong(this.getNextSongId());
         }
