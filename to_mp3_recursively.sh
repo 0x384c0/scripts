@@ -1,7 +1,7 @@
 shopt -s nullglob
 set -e
 
-for file in *.{aac,wav,opus,flac}; do
+for file in *.{aac,wav,opus,flac,oga}; do
 	echo $file
 	base_name=$(basename "$file")
 	file_name="${base_name%.*}"
