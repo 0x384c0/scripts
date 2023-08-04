@@ -3,7 +3,8 @@
 // @version      1.0
 // @description  download sketchfab models
 // @author       shitposting goddess, 0x384c0
-// @include      /^https?://(www\.)?sketchfab\.com/.*
+// @match       *://*.sketchfab.com/3d-models/**
+// @match       *://*.sketchfab.com/models/**
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip-utils/0.0.2/jszip-utils.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js
