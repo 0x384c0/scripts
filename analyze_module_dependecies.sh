@@ -12,16 +12,16 @@ backup_file() {
   cp "$file" "$backup_file"
 }
 
-# Function to replace "public " with nothing in a file
-replace_public() {
+# Function to replace find_str with replacement_str in a file
+find_and_replace() {
   local file="$1"
   local find_str="$2"
   local replacement_str="$3"
   sed -i '' "s/${find_str}/${replacement_str}/g" "$file"
 }
 
-# Function to replace "public " with nothing in a file
-replace_public_on_line() {
+# Function to replace find_str with replacement_str in a file on specified line
+find_and_replace_on_line() {
   local file="$1"
   local find_str="$2"
   local replacement_str="$3"
@@ -67,7 +67,7 @@ process_files() {
     backup_file "$file"
     
     # Replace "public " with nothing
-    replace_public "$file" "$find_str" "$replacement_str"
+    find_and_replace "$file" "$find_str" "$replacement_str"
     
     # Run the build command
     test_changes
@@ -85,7 +85,7 @@ process_files() {
   done
 }
 
-# Function to process files
+# Function to process files per line
 process_files_per_line() {
   info "Analyzing per line in file"
   local directory="$MODULE_PATH"
@@ -108,7 +108,7 @@ process_files_per_line() {
         backup_file "$file"
         
         # Replace "public " with nothing
-        replace_public_on_line "$file" "$find_str" "$replacement_str" $line
+        find_and_replace_on_line "$file" "$find_str" "$replacement_str" $line
         
         # Run the build command
         test_changes
