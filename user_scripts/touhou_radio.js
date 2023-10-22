@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Touhou Radio Imitator
-// @namespace    https://github.com/0x384c0/scripts/blob/master/user_scripts/touhou_radio.js
+// @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  Plays random song from http://151.80.40.155/
-// @author       0x384c0
+// @author       You
 // @match        http://151.80.40.155/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=40.155
 // @grant        none
@@ -39,8 +39,12 @@
 
         setSong(index) {
             this.currentSong = index;
-            this.musicPlayer.src = this.host + encodeURIComponent(this.currentPlaylist[index]);
+            this.musicPlayer.src = this.getSongUrl(this.currentPlaylist[index]);
             this.updateMusicPlayerSong(index)
+        }
+
+        getSongUrl(song) {
+            return this.host + encodeURIComponent(song)
         }
 
         initPlayer() {
@@ -143,7 +147,46 @@
         }
     }
 
-    var player = new RandomPlayer();
+    class PlaylistGenerator {
+        // Playlist
+        initSavePlaylistButton() {
+            const button = document.createElement('button');
+            button.textContent = 'Save as Playlist';
+            button.addEventListener('click', () => {
+                this.generateAndDownloadM3U8(this.getUrls(), "Touhou things.m3u8");
+            });
+            document.body.appendChild(document.createElement("br"));
+            document.body.appendChild(button);
+        }
 
-    player.init();
+        generateAndDownloadM3U8(urls, filename) {
+            // Create the M3U8 content by joining the URLs with appropriate M3U8 format
+            const m3u8Content = "#EXTM3U\n" + urls.map(url => `#EXTINF:-1,Video\n${url}`).join("\n");
+            const blob = new Blob([m3u8Content], { type: "application/vnd.apple.mpegurl" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        getUrls() {
+            return this.player.currentPlaylist
+                .map((name) => {return this.player.getSongUrl(name)})
+                .map((path) => { return window.location.origin + path })
+        }
+
+        init(player){
+            this.player = player
+            this.initSavePlaylistButton()
+        }
+    }
+
+    var player = new RandomPlayer()
+    var playlistGenerator = new PlaylistGenerator()
+
+    player
+        .init()
+        .then(() => { playlistGenerator.init(player) })
 })();
