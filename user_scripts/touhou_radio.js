@@ -3,10 +3,11 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  Plays random song from http://151.80.40.155/
-// @author       You
+// @author       0x384c0
 // @match        http://151.80.40.155/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=40.155
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function () {
