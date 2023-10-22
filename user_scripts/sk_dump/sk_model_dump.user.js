@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         sketchfab反下载器
-// @version      1.0
+// @version      1.0.1
 // @description  download sketchfab models
 // @author       shitposting goddess, 0x384c0
 // @match       *://*.sketchfab.com/3d-models/**
@@ -59,7 +59,7 @@ var addbtnfunc;
             console.log("[UserScript]add btn dwnld");
             var btn = document.createElement("a");
             btn.setAttribute("class", "control");
-            btn.innerHTML = "<pre style='color:red;'>DOWNLOAD</pre>";
+            btn.innerHTML = "<pre style='color:red;'>Download models</pre>";
             btn.addEventListener("click", dodownload , false);
             p.appendChild(btn);
             button_dw = true;

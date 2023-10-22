@@ -4,7 +4,7 @@
 // @match       *://*.sketchfab.com/3d-models/**
 // @match       *://*.sketchfab.com/models/**
 // @grant       none
-// @version     0.0.10
+// @version     0.0.11
 // @author      krapnik, 0x384c0
 // @description 2022/9/29 12:02:46
 // @license     MIT
@@ -76,7 +76,7 @@
 
   function addDownloadBtn() {
     let btn = document.createElement("button");
-    btn.innerHTML = "download";
+    btn.innerHTML = "Download textures";
     btn.style.position = "absolute"
     btn.style.top = "0"
     btn.style.left = "0"
@@ -86,7 +86,7 @@
 
   function addViewBtn() {
     let btn = document.createElement("button");
-    btn.innerHTML = "goto download";
+    btn.innerHTML = "Go to download textures";
     btn.style.position = "absolute"
     btn.style.top = "0"
     btn.style.left = "0"
