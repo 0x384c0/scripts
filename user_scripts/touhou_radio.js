@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Touhou Radio Imitator
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Plays random song from http://151.80.40.155/
 // @author       You
 // @match        http://151.80.40.155/
