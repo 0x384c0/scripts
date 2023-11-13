@@ -102,10 +102,11 @@ generate_m3u8_playlist_header() {
 generate_m3u8_playlist() {
     local output_file="$1"
     local type="$2"
-    local server_list=("${@:3}")  # Exclude the first argument which is the output file
+    local start_id="$3"
+    local server_list=("${@:4}")  # Exclude the first argument which is the output file
 
     local error_count=0
-    for resource_id in {1..999}; do
+    for resource_id in $(seq $start_id 999); do
         # Randomly pick a server from the list
         local random_server=${server_list[$((RANDOM % ${#server_list[@]}))]}
 
@@ -137,5 +138,5 @@ generate_m3u8_playlist() {
 output_file="kcs2_bgm_battle_playlist.m3u8"
 check_servers
 generate_m3u8_playlist_header "$output_file"
-generate_m3u8_playlist "$output_file" "battle" "${kcs2_servers[@]}"
-generate_m3u8_playlist "$output_file" "port" "${kcs2_servers[@]}"
+generate_m3u8_playlist "$output_file" "battle" 1 "${kcs2_servers[@]}"
+generate_m3u8_playlist "$output_file" "port" 85 "${kcs2_servers[@]}"
