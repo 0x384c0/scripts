@@ -38,10 +38,11 @@ function magic_code {
 
 function get_bgm_battle_url_from_id {
     host="$1"
-    resource_id=$2
-    resource_code=$(magic_code $resource_id "bgm_battle")
+    type=$2
+    resource_id=$3
+    resource_code=$(magic_code $resource_id "bgm_$type")
     resource_id=$(printf "%03d" "$resource_id")
-    echo "http://$host/kcs2/resources/bgm/battle/$resource_id""_""$resource_code.mp3"
+    echo "http://$host/kcs2/resources/bgm/$type/$resource_id""_""$resource_code.mp3"
 }
 
 # Servers
@@ -68,11 +69,11 @@ declare -a kcs2_servers=(
     "203.104.209.102"
 )
 
-# get_bgm_battle_url_from_id "203.104.209.71" 1
+# get_bgm_battle_url_from_id "203.104.209.71" "battle" 1
 
 function check_server {
     local server="$1"
-    local url=$(get_bgm_battle_url_from_id "$server" 1)
+    local url=$(get_bgm_battle_url_from_id "$server" "battle" 1)
     local response_code=$(curl -s -I "$url" | head -n 1 | awk '{print $2}')
 
     # Check if the response code is in the 2xx range
@@ -85,39 +86,56 @@ function check_server {
     fi
 }
 
-# Loop through the servers
-for server in "${kcs2_servers[@]}"; do
-    check_server "$server"
-done
+check_servers() {
+    for server in "${kcs2_servers[@]}"; do
+        check_server "$server"
+    done
+}
+
+
+generate_m3u8_playlist_header() {
+    local output_file="$1"
+    echo "#EXTM3U" > "$output_file"
+}
 
 # Function to generate m3u8 playlist
 generate_m3u8_playlist() {
     local output_file="$1"
-    local server_list=("${@:2}")  # Exclude the first argument which is the output file
+    local type="$2"
+    local server_list=("${@:3}")  # Exclude the first argument which is the output file
 
-    echo "#EXTM3U" > "$output_file"
-
-
+    local error_count=0
     for resource_id in {1..999}; do
         # Randomly pick a server from the list
         local random_server=${server_list[$((RANDOM % ${#server_list[@]}))]}
 
         # Get the BGM battle URL using the function
-        local bgm_url=$(get_bgm_battle_url_from_id "$random_server" "$resource_id")
+        local bgm_url=$(get_bgm_battle_url_from_id "$random_server" "$type" "$resource_id")
 
         local response_code=$(curl -s -I "$bgm_url" | head -n 1 | awk '{print $2}')
 
         if [[ "$response_code" =~ ^[1-3][0-9][0-9]$ ]]; then
             echo "Url $bgm_url is working. Code: $response_code"
             # Append the entry to the m3u8 playlist
-            echo "#EXTINF:-1,BGM $resource_id" >> "$output_file"
+            echo "#EXTINF:-1,bgm_$type""_""$resource_id" >> "$output_file"
             echo "$bgm_url" >> "$output_file"
+            error_count=0
         else
-            echo "Url $bgm_url returned an error. Code: $response_code"
+            error_count=$((error_count+1))
+            echo "Url $bgm_url returned an error. Erro count: $error_count. Error code: $response_code"
+        fi
+
+        # Abort if too many errors in a row
+        if [ $error_count  -gt 20 ]; then
+            echo "Got $error_count errors. Aborting."
+            break
         fi
     done
 }
 
-# Example usage
+# Main
 output_file="kcs2_bgm_battle_playlist.m3u8"
-generate_m3u8_playlist "$output_file" "${kcs2_servers[@]}"
+check_servers
+generate_m3u8_playlist_header "$output_file"
+generate_m3u8_playlist "$output_file" "battle" "${kcs2_servers[@]}"
+generate_m3u8_playlist "$output_file" "port" "${kcs2_servers[@]}"
