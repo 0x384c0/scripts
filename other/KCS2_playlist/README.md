@@ -10,3 +10,8 @@
 * save `output.csv` to current directory
 * run `sh set_titles_to_playlist.sh`
 * output will be `kcs2_bgm_playlist.m3u8`
+
+## Todo
+* create GitHub Action to automate these actions
+* use [selenium](https://www.selenium.dev/) to get titles from wiki
+* publish generated playlist as release attachment
