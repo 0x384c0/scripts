@@ -28,10 +28,9 @@ function extractTableData() {
 function mapToCsv(map) {
     let csvString = '';
   
-    map.forEach((value, key) => {
-        console.log(value);
+    for (const [key, value] of Object.entries(map)) {
       csvString += `${key},${value}\n`;
-    });
+    };
   
     return csvString;
   }
@@ -46,6 +45,5 @@ function mapToCsv(map) {
   }
 
 map = extractTableData()
-console.log(mapToCsv(map))
-// downloadCsv(map, 'output.csv');
+downloadCsv(map, 'output.csv');
 
