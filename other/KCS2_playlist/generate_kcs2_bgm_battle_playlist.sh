@@ -118,7 +118,7 @@ generate_m3u8_playlist() {
         if [[ "$response_code" =~ ^[1-3][0-9][0-9]$ ]]; then
             echo "Url $bgm_url is working. Code: $response_code"
             # Append the entry to the m3u8 playlist
-            echo "#EXTINF:-1,bgm_$type""_""$resource_id" >> "$output_file"
+            echo "#EXTINF:0,bgm_$type""_""$resource_id" >> "$output_file"
             echo "$bgm_url" >> "$output_file"
             error_count=0
         else
