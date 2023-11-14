@@ -135,7 +135,7 @@ generate_m3u8_playlist() {
 }
 
 # Main
-output_file="kcs2_bgm_playlist.m3u8"
+output_file="kcs2_bgm_playlist.m3u"
 check_servers
 generate_m3u8_playlist_header "$output_file"
 generate_m3u8_playlist "$output_file" "battle" 1 "${kcs2_servers[@]}"

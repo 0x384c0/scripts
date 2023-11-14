@@ -9,7 +9,7 @@
 * open Dev console, paste and run code from `extract_title_from_wiki.js`
 * save `output.csv` to current directory
 * run `sh set_titles_to_playlist.sh`
-* output will be `kcs2_bgm_playlist.m3u8`
+* output will be `kcs2_bgm_playlist.m3u`
 
 ## Todo
 * create GitHub Action to automate these actions
