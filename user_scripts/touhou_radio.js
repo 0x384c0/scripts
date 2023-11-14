@@ -162,7 +162,7 @@
 
         generateAndDownloadM3U8(urls, filename) {
             // Create the M3U8 content by joining the URLs with appropriate M3U8 format
-            const m3u8Content = "#EXTM3U\n" + urls.map(url => `#EXTINF:-1,Video\n${url}`).join("\n")
+            const m3u8Content = "#EXTM3U\n" + urls.map(url => `#EXTINF:0,Video\n${url}`).join("\n")
             const blob = new Blob([m3u8Content], { type: "application/vnd.apple.mpegurl" })
             const url = URL.createObjectURL(blob)
             const a = document.createElement("a")
