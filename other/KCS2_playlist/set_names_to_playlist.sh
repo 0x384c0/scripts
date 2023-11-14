@@ -1,7 +1,7 @@
 #!/bin/bash
 
 csv_file="output.csv"
-m3u8_file="kcs2_bgm_battle_playlist.m3u8"
+m3u8_file="kcs2_bgm_playlist.m3u8"
 output_file="new_playlist.m3u8"
 
 declare -A bgm_mapping
