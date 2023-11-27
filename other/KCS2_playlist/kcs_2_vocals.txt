@@ -2,6 +2,7 @@
 /kcs2/resources/bgm/battle/033_9355.mp3
 /kcs2/resources/bgm/battle/034_8894.mp3
 /kcs2/resources/bgm/battle/035_4165.mp3
+/kcs2/resources/bgm/battle/036_3497.mp3
 /kcs2/resources/bgm/battle/044_6880.mp3
 /kcs2/resources/bgm/battle/077_1573.mp3
 /kcs2/resources/bgm/battle/100_9394.mp3
