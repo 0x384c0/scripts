@@ -10,3 +10,4 @@
 /kcs2/resources/bgm/battle/160_3283.mp3
 /kcs2/resources/bgm/battle/217_8510.mp3
 /kcs2/resources/bgm/port/146_8092.mp3
+/kcs2/resources/bgm/port/152_3940.mp3
