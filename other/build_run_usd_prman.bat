@@ -10,7 +10,7 @@ pip install pyside6
 pip install PyOpenGL PyOpenGL_accelerate
 
 echo "Build"
-python "OpenUSD\build_scripts\build_usd.py" --ptex --openimageio --opencolorio --openvdb --prman --prman-location "$env:RMANTREE" "USD"
+python "OpenUSD\build_scripts\build_usd.py" --ptex --openimageio --opencolorio --openvdb --prman --prman-location "$env:RMANTREE" %OPEN_USD_INSTALL_PATH%
 
 echo "Environment variables"
 set PATH=%PATH%;%OPEN_USD_INSTALL_PATH%bin
