@@ -5,6 +5,7 @@
 /kcs2/resources/bgm/battle/036_3497.mp3
 /kcs2/resources/bgm/battle/044_6880.mp3
 /kcs2/resources/bgm/battle/077_1573.mp3
+/kcs2/resources/bgm/battle/082_7787.mp3
 /kcs2/resources/bgm/battle/100_9394.mp3
 /kcs2/resources/bgm/battle/101_9316.mp3
 /kcs2/resources/bgm/battle/151_6187.mp3
