@@ -1,10 +1,10 @@
 def remove_songs_from_playlist(playlist_path, vocals_path, output_path):
     # Read the vocals file to get a list of songs to remove
-    with open(vocals_path, 'r') as vocals_file:
+    with open(vocals_path, encoding="utf8", mode='r') as vocals_file:
         vocals = [line.strip() for line in vocals_file.readlines()]
 
     # Read the original playlist file
-    with open(playlist_path, 'r') as playlist_file:
+    with open(playlist_path, encoding="utf8", mode='r') as playlist_file:
         playlist_lines = playlist_file.readlines()
 
     # Filter out the lines containing the songs from the vocals file
@@ -19,7 +19,7 @@ def remove_songs_from_playlist(playlist_path, vocals_path, output_path):
             result.append(line)
 
     # Write the updated playlist to the output file
-    with open(output_path, 'w') as output_file:
+    with open(output_path, encoding="utf8", mode='w') as output_file:
         output_file.writelines(result)
 
 # Paths to the files
