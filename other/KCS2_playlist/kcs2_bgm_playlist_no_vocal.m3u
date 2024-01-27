@@ -59,16 +59,6 @@ http://203.104.209.102/kcs2/resources/bgm/battle/029_6877.mp3
 http://203.104.209.39/kcs2/resources/bgm/battle/030_3064.mp3
 #EXTINF:0,Fubuki, Heading Out!
 http://203.104.209.39/kcs2/resources/bgm/battle/031_2929.mp3
-#EXTINF:0,Fubuki
-http://125.6.189.167/kcs2/resources/bgm/battle/032_4579.mp3
-#EXTINF:0,bgm_battle_33
-http://203.104.209.150/kcs2/resources/bgm/battle/033_9355.mp3
-#EXTINF:0,Color of the Sea
-http://125.6.189.71/kcs2/resources/bgm/battle/034_8894.mp3
-#EXTINF:0,bgm_battle_35
-http://125.6.189.167/kcs2/resources/bgm/battle/035_4165.mp3
-#EXTINF:0,bgm_battle_36
-http://125.6.189.215/kcs2/resources/bgm/battle/036_3497.mp3
 #EXTINF:0,New "Maritime Escort Fleet" sail out!
 http://203.104.209.167/kcs2/resources/bgm/battle/037_8564.mp3
 #EXTINF:0,Battle of the Mutsuki-class Destroyers
@@ -83,8 +73,6 @@ http://203.104.209.134/kcs2/resources/bgm/battle/041_7687.mp3
 http://125.6.189.167/kcs2/resources/bgm/battle/042_3426.mp3
 #EXTINF:0,Invading Enemy Territory
 http://203.104.209.167/kcs2/resources/bgm/battle/043_4714.mp3
-#EXTINF:0,Cape Kaga
-http://203.104.209.167/kcs2/resources/bgm/battle/044_6880.mp3
 #EXTINF:0,Regathering of the Fleet
 http://203.104.209.71/kcs2/resources/bgm/battle/045_1073.mp3
 #EXTINF:0,Sortie! 8th Division
@@ -149,8 +137,6 @@ http://203.104.209.87/kcs2/resources/bgm/battle/074_9811.mp3
 http://125.6.189.247/kcs2/resources/bgm/battle/075_9743.mp3
 #EXTINF:0,Naval Base Saury Festival Kai
 http://125.6.189.7/kcs2/resources/bgm/battle/076_2481.mp3
-#EXTINF:0,The Shipgirl Festival Dance
-http://125.6.189.71/kcs2/resources/bgm/battle/077_1573.mp3
 #EXTINF:0,Cordon
 http://125.6.189.103/kcs2/resources/bgm/battle/078_3653.mp3
 #EXTINF:0,World Under the Water
@@ -195,10 +181,6 @@ http://203.104.209.150/kcs2/resources/bgm/battle/097_2564.mp3
 http://125.6.189.7/kcs2/resources/bgm/battle/098_7972.mp3
 #EXTINF:0,Battle of the Mediterranean Sea
 http://203.104.209.39/kcs2/resources/bgm/battle/099_4845.mp3
-#EXTINF:0,Requiem for the Atlantic Ocean
-http://125.6.189.7/kcs2/resources/bgm/battle/100_9394.mp3
-#EXTINF:0,bgm_battle_101
-http://203.104.209.134/kcs2/resources/bgm/battle/101_9316.mp3
 #EXTINF:0,Naval Base Saury Festival Kai Ni
 http://203.104.209.134/kcs2/resources/bgm/battle/102_5481.mp3
 #EXTINF:0,Operation Sho-go's Eve
@@ -297,8 +279,6 @@ http://203.104.209.102/kcs2/resources/bgm/battle/148_5310.mp3
 http://203.104.209.150/kcs2/resources/bgm/battle/149_8521.mp3
 #EXTINF:0,Fierce Battle! Third Battle of Solomon
 http://203.104.209.39/kcs2/resources/bgm/battle/150_8788.mp3
-#EXTINF:0,Nights of Hiei and Kirishima
-http://125.6.189.167/kcs2/resources/bgm/battle/151_6187.mp3
 #EXTINF:0,Reiwa's Doll Festival
 http://203.104.209.39/kcs2/resources/bgm/battle/152_8689.mp3
 #EXTINF:0,Waves in the Offing
@@ -315,8 +295,6 @@ http://203.104.209.134/kcs2/resources/bgm/battle/157_5537.mp3
 http://203.104.209.23/kcs2/resources/bgm/battle/158_2983.mp3
 #EXTINF:0,Night Battle of Ironbottom Sound
 http://125.6.189.103/kcs2/resources/bgm/battle/159_5667.mp3
-#EXTINF:0,Decisive Battle! South Pacific Naval Battle
-http://203.104.209.55/kcs2/resources/bgm/battle/160_3283.mp3
 #EXTINF:0,A Sketch Akigumo Drew
 http://125.6.189.247/kcs2/resources/bgm/battle/161_1972.mp3
 #EXTINF:0,The Miracle of Yukikaze
@@ -429,8 +407,6 @@ http://125.6.189.135/kcs2/resources/bgm/battle/214_8534.mp3
 http://203.104.209.183/kcs2/resources/bgm/battle/215_2347.mp3
 #EXTINF:0,E-6 Final Boss
 http://125.6.189.71/kcs2/resources/bgm/battle/216_7898.mp3
-#EXTINF:0,This Moment
-http://203.104.209.23/kcs2/resources/bgm/battle/217_8510.mp3
 #EXTINF:0,Main Operation Map Screen
 http://203.104.209.55/kcs2/resources/bgm/battle/218_6967.mp3
 #EXTINF:0,E-1 and E-2 Normal Battle, E-3 Map Screen
@@ -563,8 +539,6 @@ http://125.6.189.247/kcs2/resources/bgm/port/143_9889.mp3
 http://203.104.209.39/kcs2/resources/bgm/port/144_6147.mp3
 #EXTINF:0,bgm_port_145
 http://125.6.189.71/kcs2/resources/bgm/port/145_3262.mp3
-#EXTINF:0,bgm_port_146
-http://203.104.209.150/kcs2/resources/bgm/port/146_8092.mp3
 #EXTINF:0,bgm_port_147
 http://203.104.209.150/kcs2/resources/bgm/port/147_7705.mp3
 #EXTINF:0,bgm_port_148
@@ -575,8 +549,6 @@ http://125.6.189.7/kcs2/resources/bgm/port/149_5557.mp3
 http://203.104.209.150/kcs2/resources/bgm/port/150_9199.mp3
 #EXTINF:0,bgm_port_151
 http://203.104.209.23/kcs2/resources/bgm/port/151_8788.mp3
-#EXTINF:0,bgm_port_152
-http://203.104.209.167/kcs2/resources/bgm/port/152_3940.mp3
 #EXTINF:0,bgm_port_153
 http://125.6.189.39/kcs2/resources/bgm/port/153_9688.mp3
 #EXTINF:0,bgm_port_154
