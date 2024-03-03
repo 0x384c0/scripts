@@ -134,9 +134,39 @@ generate_m3u8_playlist() {
     done
 }
 
+# Get onfor from existing playlist, which allows to continue adding songs instead regenerating playlist from beginning
+get_last_id() {
+    local output_file="$1"
+    local type="$2"
+    local default_id="$3"
+
+    # Use grep to find lines containing the specified type and extract the song_id
+    local last_id=$(grep -E "/kcs2/resources/bgm/$type/.*\.mp3" "$output_file" | grep -oP "${type}/(\d+)_.*\.mp3" | awk -F'/' '{print $2}' | awk -F'_' '{print $1}' | tail -n 1)
+    last_id=$((last_id + 1));
+
+    # If no song_id is found, return the default id
+    echo "${last_id:-$default_id}"
+}
+
 # Main
 output_file="kcs2_bgm_playlist.m3u"
+default_battle_id=1
+default_port_id=85
+
+# Test servers and keep only those, that are working
 check_servers
-generate_m3u8_playlist_header "$output_file"
-generate_m3u8_playlist "$output_file" "battle" 1 "${kcs2_servers[@]}"
-generate_m3u8_playlist "$output_file" "port" 85 "${kcs2_servers[@]}"
+
+# create playlist if needed
+if [ ! -f "$output_file" ]; then
+    generate_m3u8_playlist_header "$output_file"
+else
+    echo >> "$output_file"
+fi
+
+# create or continue battle songs
+last_battle_id=$(get_last_id "$output_file" "battle" $default_battle_id)
+generate_m3u8_playlist "$output_file" "battle" $last_battle_id "${kcs2_servers[@]}"
+
+# create or continue port songs
+last_port_id=$(get_last_id "$output_file" "port" $default_port_id)
+generate_m3u8_playlist "$output_file" "port" $last_port_id "${kcs2_servers[@]}"

@@ -12,6 +12,7 @@
 * output will be `kcs2_bgm_playlist.m3u`
 
 ## Todo
+* rewrite all to Python
 * create GitHub Action to automate playlist generation
 * use [selenium](https://www.selenium.dev/) to get titles from wiki
 * publish generated playlist as release attachment
