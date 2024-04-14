@@ -4,9 +4,9 @@ shopt -s nocaseglob
 set -e
 
 
-for file in *.{png,PNG,bmp,BMP,tif,TIF,tiff,TIFF}; do
+for file in *.{jpeg,jpg,JPG,png,PNG,bmp,BMP,tif,TIF,tiff,TIFF}; do
     case "$file" in
-        *.jpg|*.jpeg)
+        *.tmp)
             continue  # Skip jpg and jpeg files
             ;;
         *)
