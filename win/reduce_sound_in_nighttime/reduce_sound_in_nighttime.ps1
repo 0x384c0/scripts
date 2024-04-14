@@ -7,7 +7,7 @@ function Get-SoundVolume {
 # Function to set the sound volume to a specified percentage
 function Set-SoundVolume {
     echo "Set the sound volume to 10%"
-    & svcl /SetVolume "Speakers" 2
+    & svcl /SetVolume "Speakers" 20
 }
 
 # Function to set the sound volume to a specified percentage
@@ -15,7 +15,7 @@ function Set-SoundVolumeIfNeeded {
     # Check if the sound volume is greater than 10%
     $currentVolume = Get-SoundVolume
     echo "v: " $currentVolume
-    if ($currentVolume -gt 2) {
+    if ($currentVolume -gt 20) {
         Set-SoundVolume
     }
 }
