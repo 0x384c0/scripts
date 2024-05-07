@@ -141,7 +141,7 @@ get_last_id() {
     local default_id="$3"
 
     # Use grep to find lines containing the specified type and extract the song_id
-    local last_id=$(grep -E "/kcs2/resources/bgm/$type/.*\.mp3" "$output_file" | grep -oP "${type}/(\d+)_.*\.mp3" | awk -F'/' '{print $2}' | awk -F'_' '{print $1}' | tail -n 1)
+    local last_id=$(grep -E "/kcs2/resources/bgm/$type/.*\.mp3" "$output_file" | grep -oE "${type}/([0-9]+)_.*\.mp3" | awk -F'/' '{print $2}' | awk -F'_' '{print $1}' | tail -n 1)
     last_id=$((last_id + 1));
 
     # If no song_id is found, return the default id
