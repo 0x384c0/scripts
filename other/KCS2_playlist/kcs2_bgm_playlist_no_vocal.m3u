@@ -561,5 +561,7 @@ http://203.104.209.134/kcs2/resources/bgm/battle/241_4144.mp3
 http://125.6.189.135/kcs2/resources/bgm/battle/242_7285.mp3
 #EXTINF:-1,Operation Tatsumaki (E-3 Boss Battle, E-4 Normal battle)
 http://203.104.209.71/kcs2/resources/bgm/battle/243_1624.mp3
-#EXTINF:0,bgm_battle_244
+#EXTINF:-1,E-4 3rd and Final Boss Battle
 http://125.6.189.247/kcs2/resources/bgm/battle/244_2492.mp3
+#EXTINF:-1,Blue wind blowing on the sea
+http://125.6.189.103/kcs2/resources/bgm/battle/245_2044.mp3
