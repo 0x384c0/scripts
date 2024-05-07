@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -e
 
 csv_file="output.csv"
 m3u8_file="kcs2_bgm_playlist.m3u"
@@ -25,7 +26,7 @@ while IFS= read -r line; do
     echo "$line"
 done < "$m3u8_file" > "$output_file"
 
-echo "New playlist created: $output_file"
-
 rm "$m3u8_file"
 mv "$output_file" "$m3u8_file"
+
+echo "New playlist created: $m3u8_file"

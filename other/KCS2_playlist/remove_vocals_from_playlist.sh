@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-python ./remove_vocals_from_playlist.py
+python3 ./remove_vocals_from_playlist.py

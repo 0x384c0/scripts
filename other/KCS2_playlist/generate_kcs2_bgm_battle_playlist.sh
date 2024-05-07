@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Url example: http://203.104.209.71/kcs2/resources/bgm/battle/119_8110.mp3
 
