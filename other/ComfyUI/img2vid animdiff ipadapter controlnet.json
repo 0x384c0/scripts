@@ -65,7 +65,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        1047672112152880,
+        259866564924937,
         "fixed",
         20,
         8,
@@ -229,40 +229,6 @@
       ]
     },
     {
-      "id": 38,
-      "type": "CLIPVisionLoader",
-      "pos": [
-        -464.16022054210686,
-        -151.7746380160598
-      ],
-      "size": {
-        "0": 320.52764892578125,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "CLIP_VISION",
-          "type": "CLIP_VISION",
-          "links": [
-            77
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPVisionLoader"
-      },
-      "widgets_values": [
-        "model.safetensors"
-      ]
-    },
-    {
       "id": 66,
       "type": "Reroute",
       "pos": [
@@ -310,7 +276,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -331,7 +297,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        1047672112152880,
+        259866564924937,
         "randomize"
       ],
       "color": "#2a363b",
@@ -397,7 +363,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        1047672112152880,
+        259866564924937,
         "fixed",
         20,
         6,
@@ -455,7 +421,7 @@
         "1": 608.3573608398438
       },
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -1080,7 +1046,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -1217,7 +1183,7 @@
         "1": 146
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -1275,7 +1241,7 @@
         "1": 98
       },
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -1457,10 +1423,10 @@
         2962,
         205
       ],
-      "size": [
-        458.6309534727761,
-        613.1706558559997
-      ],
+      "size": {
+        "0": 458.6309509277344,
+        "1": 613.170654296875
+      },
       "flags": {},
       "order": 29,
       "mode": 0,
@@ -1480,8 +1446,41 @@
         8,
         false,
         80,
-        "default",
-        null
+        "default"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "CLIPVisionLoader",
+      "pos": [
+        -464.16022054210686,
+        -151.7746380160598
+      ],
+      "size": {
+        "0": 320.52764892578125,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "CLIP_VISION",
+          "type": "CLIP_VISION",
+          "links": [
+            77
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPVisionLoader"
+      },
+      "widgets_values": [
+        "CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors"
       ]
     }
   ],
