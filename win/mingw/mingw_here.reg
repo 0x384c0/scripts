@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\mingw64]
+@="MinGW 64 Bash Here"
+"Icon"="F:\\Program Files\\msys64\\mingw64.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\mingw64\command]
+@="\"F:\\Program Files\\msys64\\msys2_shell.cmd\" -mingw64 -where \"%V\""
