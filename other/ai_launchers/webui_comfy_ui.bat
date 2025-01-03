@@ -51,8 +51,8 @@ set ACCELERATE="%VENV_DIR%\Scripts\accelerate.exe"
 if EXIST %ACCELERATE% goto :accelerate_launch
 
 :launch
-@REM %PYTHON% -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118 xformers
-@REM %PYTHON% -m pip install -r requirements.txt
+@REM %PYTHON% -m pip install --upgrade torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
+@REM %PYTHON% -m pip install --upgrade -r requirements.txt
 %PYTHON% main.py %*
 if EXIST tmp/restart goto :skip_venv
 pause
