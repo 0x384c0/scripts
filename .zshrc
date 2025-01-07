@@ -1,4 +1,3 @@
-
 #aliases
 alias ffpatched='~/Documents/mproj/FFmpeg_custom/FFmpeg/fftools/ffpatched'
 alias rffplay='ffpatched -user_agent "Mozilla/5.0"  -reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 2'
@@ -14,8 +13,8 @@ export HISTCONTROL=ignoredups
 #android
 export ANDROID_HOME=~/Library/Android/sdk
 export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jbr/Contents/Home
-alias adb='~/Library/Android/sdk/platform-tools/adb'
-alias emulator='~/Library/Android/sdk/tools/emulator'
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$ANDROID_HOME/tools:$PATH"
 
 # zsh-completions
 if [ -n "$ZSH_VERSION" ]; then
