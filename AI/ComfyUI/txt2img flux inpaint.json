@@ -1,88 +1,20 @@
 {
-  "last_node_id": 108,
-  "last_link_id": 221,
+  "last_node_id": 112,
+  "last_link_id": 270,
   "nodes": [
-    {
-      "id": 39,
-      "type": "SamplerCustomAdvanced",
-      "pos": {
-        "0": 2489.69873046875,
-        "1": -459.42950439453125
-      },
-      "size": {
-        "0": 355.20001220703125,
-        "1": 106
-      },
-      "flags": {},
-      "order": 25,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "noise",
-          "type": "NOISE",
-          "link": 65,
-          "slot_index": 0
-        },
-        {
-          "name": "guider",
-          "type": "GUIDER",
-          "link": 66,
-          "slot_index": 1
-        },
-        {
-          "name": "sampler",
-          "type": "SAMPLER",
-          "link": 67,
-          "slot_index": 2
-        },
-        {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 68,
-          "slot_index": 3
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 152,
-          "slot_index": 4
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            63
-          ],
-          "slot_index": 0,
-          "shape": 3
-        },
-        {
-          "name": "denoised_output",
-          "type": "LATENT",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SamplerCustomAdvanced"
-      },
-      "widgets_values": []
-    },
     {
       "id": 45,
       "type": "BasicScheduler",
-      "pos": {
-        "0": 2067.69921875,
-        "1": -340.42950439453125
-      },
-      "size": {
-        "0": 315,
-        "1": 106
-      },
+      "pos": [
+        2067.69921875,
+        -340.42950439453125
+      ],
+      "size": [
+        315,
+        106
+      ],
       "flags": {},
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -113,14 +45,14 @@
     {
       "id": 44,
       "type": "KSamplerSelect",
-      "pos": {
-        "0": 2065.69921875,
-        "1": -476.4295654296875
-      },
-      "size": {
-        "0": 315,
-        "1": 58
-      },
+      "pos": [
+        2065.69921875,
+        -476.4295654296875
+      ],
+      "size": [
+        315,
+        58
+      ],
       "flags": {},
       "order": 0,
       "mode": 0,
@@ -145,14 +77,14 @@
     {
       "id": 42,
       "type": "RandomNoise",
-      "pos": {
-        "0": 2066.69921875,
-        "1": -826.4293823242188
-      },
-      "size": {
-        "0": 315,
-        "1": 82
-      },
+      "pos": [
+        2066.69921875,
+        -826.4293823242188
+      ],
+      "size": [
+        315,
+        82
+      ],
       "flags": {},
       "order": 1,
       "mode": 0,
@@ -171,23 +103,23 @@
         "Node name for S&R": "RandomNoise"
       },
       "widgets_values": [
-        625414064150556,
+        695794785703635,
         "randomize"
       ]
     },
     {
       "id": 50,
       "type": "ModelSamplingFlux",
-      "pos": {
-        "0": 1681.6993408203125,
-        "1": -845.4293823242188
-      },
-      "size": {
-        "0": 315,
-        "1": 130
-      },
+      "pos": [
+        1681.6993408203125,
+        -845.4293823242188
+      ],
+      "size": [
+        315,
+        130
+      ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -221,16 +153,16 @@
     {
       "id": 43,
       "type": "BasicGuider",
-      "pos": {
-        "0": 2098.69921875,
-        "1": -649.4292602539062
-      },
-      "size": {
-        "0": 241.79998779296875,
-        "1": 46
-      },
+      "pos": [
+        2098.69921875,
+        -649.4292602539062
+      ],
+      "size": [
+        241.79998779296875,
+        46
+      ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -261,87 +193,18 @@
       "widgets_values": []
     },
     {
-      "id": 90,
-      "type": "ImpactSwitch",
-      "pos": {
-        "0": 1160.726318359375,
-        "1": -351.9849548339844
-      },
-      "size": {
-        "0": 210,
-        "1": 122
-      },
-      "flags": {},
-      "order": 23,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "input1",
-          "type": "LATENT",
-          "link": 137,
-          "shape": 7
-        },
-        {
-          "name": "input2",
-          "type": "LATENT",
-          "link": 138
-        },
-        {
-          "name": "input3",
-          "type": "LATENT",
-          "link": null
-        },
-        {
-          "name": "select",
-          "type": "INT",
-          "link": 139,
-          "widget": {
-            "name": "select"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            152
-          ],
-          "slot_index": 0,
-          "label": "LATENT"
-        },
-        {
-          "name": "selected_label",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "name": "selected_index",
-          "type": "INT",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ImpactSwitch"
-      },
-      "widgets_values": [
-        1,
-        false
-      ]
-    },
-    {
       "id": 99,
       "type": "Reroute",
-      "pos": {
-        "0": 1569.55615234375,
-        "1": -924.4859008789062
-      },
+      "pos": [
+        1569.55615234375,
+        -924.4859008789062
+      ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -369,18 +232,18 @@
     {
       "id": 93,
       "type": "CLIPTextEncode",
-      "pos": {
-        "0": 179.17222595214844,
-        "1": -457.1890563964844
-      },
-      "size": {
-        "0": 400,
-        "1": 200
-      },
+      "pos": [
+        169.99522399902344,
+        -442.76812744140625
+      ],
+      "size": [
+        400,
+        200
+      ],
       "flags": {
         "collapsed": true
       },
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -409,16 +272,16 @@
     {
       "id": 74,
       "type": "InpaintModelConditioning",
-      "pos": {
-        "0": 524.9915161132812,
-        "1": -502.70233154296875
-      },
-      "size": {
-        "0": 302.4000244140625,
-        "1": 106
-      },
+      "pos": [
+        515.814453125,
+        -488.2812805175781
+      ],
+      "size": [
+        302.4000244140625,
+        138
+      ],
       "flags": {},
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -474,157 +337,23 @@
       "properties": {
         "Node name for S&R": "InpaintModelConditioning"
       },
-      "widgets_values": []
-    },
-    {
-      "id": 95,
-      "type": "MaskPreview+",
-      "pos": {
-        "0": -468.9576110839844,
-        "1": 983.3162841796875
-      },
-      "size": {
-        "0": 407.7729797363281,
-        "1": 295.1392517089844
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "mask",
-          "type": "MASK",
-          "link": 148
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "MaskPreview+"
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 91,
-      "type": "ImpactGaussianBlurMask",
-      "pos": {
-        "0": -436.9107666015625,
-        "1": 817.2347412109375
-      },
-      "size": {
-        "0": 315,
-        "1": 82
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "mask",
-          "type": "MASK",
-          "link": 142
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            141,
-            148
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ImpactGaussianBlurMask"
-      },
       "widgets_values": [
-        3,
-        7
-      ]
-    },
-    {
-      "id": 88,
-      "type": "ImpactSwitch",
-      "pos": {
-        "0": 1162.9442138671875,
-        "1": -592.1533203125
-      },
-      "size": {
-        "0": 210,
-        "1": 122
-      },
-      "flags": {},
-      "order": 22,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "input1",
-          "type": "CONDITIONING",
-          "link": 127,
-          "shape": 7
-        },
-        {
-          "name": "input2",
-          "type": "CONDITIONING",
-          "link": 128
-        },
-        {
-          "name": "input3",
-          "type": "CONDITIONING",
-          "link": null
-        },
-        {
-          "name": "select",
-          "type": "INT",
-          "link": 129,
-          "widget": {
-            "name": "select"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            151
-          ],
-          "slot_index": 0,
-          "label": "CONDITIONING"
-        },
-        {
-          "name": "selected_label",
-          "type": "STRING",
-          "links": []
-        },
-        {
-          "name": "selected_index",
-          "type": "INT",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ImpactSwitch"
-      },
-      "widgets_values": [
-        1,
-        false
+        true
       ]
     },
     {
       "id": 103,
       "type": "ImageCompositeMasked",
-      "pos": {
-        "0": 1230.765625,
-        "1": 192.64588928222656
-      },
-      "size": {
-        "0": 315,
-        "1": 146
-      },
+      "pos": [
+        1230.765625,
+        192.64588928222656
+      ],
+      "size": [
+        315,
+        146
+      ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -666,16 +395,16 @@
     {
       "id": 40,
       "type": "VAEDecode",
-      "pos": {
-        "0": 1235.7657470703125,
-        "1": 61.645687103271484
-      },
-      "size": {
-        "0": 210,
-        "1": 46
-      },
+      "pos": [
+        1235.7657470703125,
+        61.645687103271484
+      ],
+      "size": [
+        210,
+        46
+      ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -709,16 +438,16 @@
     {
       "id": 107,
       "type": "ImpactSwitch",
-      "pos": {
-        "0": 1598.765625,
-        "1": 62.645687103271484
-      },
-      "size": {
-        "0": 210,
-        "1": 122
-      },
+      "pos": [
+        1598.765625,
+        62.645687103271484
+      ],
+      "size": [
+        210,
+        122
+      ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -776,47 +505,12 @@
       ]
     },
     {
-      "id": 87,
-      "type": "SimpleMathInt+",
-      "pos": {
-        "0": 1116.726318359375,
-        "1": -756.9851684570312
-      },
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            129,
-            139,
-            202
-          ],
-          "slot_index": 0
-        }
-      ],
-      "title": "🔧 Simple Math Int Inpaint",
-      "properties": {
-        "Node name for S&R": "SimpleMathInt+"
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
       "id": 98,
       "type": "Reroute",
-      "pos": {
-        "0": -133.5380859375,
-        "1": -1160.1319580078125
-      },
+      "pos": [
+        -160.41015625,
+        -1342.4781494140625
+      ],
       "size": [
         75,
         26
@@ -850,16 +544,16 @@
     {
       "id": 48,
       "type": "VAELoader",
-      "pos": {
-        "0": -1224.53759765625,
-        "1": -1111.1318359375
-      },
-      "size": {
-        "0": 315,
-        "1": 58
-      },
+      "pos": [
+        -1251.40966796875,
+        -1293.47802734375
+      ],
+      "size": [
+        315,
+        58
+      ],
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -881,24 +575,137 @@
       ]
     },
     {
+      "id": 49,
+      "type": "FluxGuidance",
+      "pos": [
+        831.320556640625,
+        157.73423767089844
+      ],
+      "size": [
+        317.4000244140625,
+        58
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 74
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            103,
+            127
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      },
+      "widgets_values": [
+        3
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 73,
+      "type": "UNETLoader",
+      "pos": [
+        -1239.40966796875,
+        -1136.4779052734375
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            265
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      },
+      "widgets_values": [
+        "flux1-dev-fp8-e4m3fn.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "DualCLIPLoader",
+      "pos": [
+        -1234.40966796875,
+        -992.4778442382812
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            266
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoader"
+      },
+      "widgets_values": [
+        "t5xxl_fp8_e4m3fn_scaled.safetensors",
+        "clip_l.safetensors",
+        "flux",
+        "default"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
       "id": 97,
       "type": "Reroute",
-      "pos": {
-        "0": -87.5380630493164,
-        "1": -343.13177490234375
-      },
+      "pos": [
+        -115.72113037109375,
+        -334.0719909667969
+      ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 197
+          "link": 270
         }
       ],
       "outputs": [
@@ -920,22 +727,22 @@
     {
       "id": 96,
       "type": "Reroute",
-      "pos": {
-        "0": -85.5380630493164,
-        "1": -465.1318359375
-      },
+      "pos": [
+        -120.276123046875,
+        -460.00506591796875
+      ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 196
+          "link": 269
         }
       ],
       "outputs": [
@@ -954,18 +761,481 @@
       }
     },
     {
+      "id": 63,
+      "type": "SaveImage",
+      "pos": [
+        1237,
+        435
+      ],
+      "size": [
+        349.33843994140625,
+        380.9572448730469
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 203
+        }
+      ],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "MaskPreview+",
+      "pos": [
+        -456.8652038574219,
+        1056.0628662109375
+      ],
+      "size": [
+        407.7729797363281,
+        295.1392517089844
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 148
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview+"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 91,
+      "type": "ImpactGaussianBlurMask",
+      "pos": [
+        -429.2330322265625,
+        894.0120849609375
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 142
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            141,
+            148
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImpactGaussianBlurMask"
+      },
+      "widgets_values": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": 70,
+      "type": "EmptyLatentImage",
+      "pos": [
+        -429.9315185546875,
+        85.25397491455078
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            137
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        2
+      ]
+    },
+    {
+      "id": 39,
+      "type": "SamplerCustomAdvanced",
+      "pos": [
+        2489.69873046875,
+        -459.42950439453125
+      ],
+      "size": [
+        359.6771545410156,
+        114.95429992675781
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 65,
+          "slot_index": 0
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 66,
+          "slot_index": 1
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 67,
+          "slot_index": 2
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 68,
+          "slot_index": 3
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 152,
+          "slot_index": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            63
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 88,
+      "type": "ImpactSwitch",
+      "pos": [
+        1189.1640625,
+        -594.7757568359375
+      ],
+      "size": [
+        210,
+        122
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input1",
+          "type": "CONDITIONING",
+          "link": 127,
+          "shape": 7
+        },
+        {
+          "name": "input2",
+          "type": "CONDITIONING",
+          "link": 128
+        },
+        {
+          "name": "input3",
+          "type": "CONDITIONING",
+          "link": null
+        },
+        {
+          "name": "select",
+          "type": "INT",
+          "link": 129,
+          "widget": {
+            "name": "select"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            151
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        },
+        {
+          "name": "selected_label",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "selected_index",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImpactSwitch"
+      },
+      "widgets_values": [
+        1,
+        false
+      ]
+    },
+    {
+      "id": 90,
+      "type": "ImpactSwitch",
+      "pos": [
+        1188.2578125,
+        -369.02764892578125
+      ],
+      "size": [
+        210,
+        122
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input1",
+          "type": "LATENT",
+          "link": 137,
+          "shape": 7
+        },
+        {
+          "name": "input2",
+          "type": "LATENT",
+          "link": 138
+        },
+        {
+          "name": "input3",
+          "type": "LATENT",
+          "link": null
+        },
+        {
+          "name": "select",
+          "type": "INT",
+          "link": 139,
+          "widget": {
+            "name": "select"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            152
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        },
+        {
+          "name": "selected_label",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "selected_index",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImpactSwitch"
+      },
+      "widgets_values": [
+        1,
+        false
+      ]
+    },
+    {
+      "id": 82,
+      "type": "LoraLoader",
+      "pos": [
+        -637.7977905273438,
+        -1113.095703125
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 265
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 266
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            269
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            270
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "Flux\\Style\\amateurphoto-v6-forcu.safetensors",
+        0.7000000000000001,
+        0.7000000000000001
+      ]
+    },
+    {
+      "id": 47,
+      "type": "CLIPTextEncode",
+      "pos": [
+        279.3205261230469,
+        142.73423767089844
+      ],
+      "size": [
+        510.17376708984375,
+        231.86048889160156
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 161
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            74
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "Photo of a car in garage\n\nPhoto has bad lighting.The only light comes from the flash of the camera.\nAmateur photo is a candid, snapshot quality with poor lithing as if captured spontaneously with a smartphone camera.\nPhoto has grainy noise, JPEG artifacts, without watermarks.\n\n\n\n\n"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 87,
+      "type": "SimpleMathInt+",
+      "pos": [
+        -430.625732421875,
+        -24.902917861938477
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            129,
+            139,
+            202
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "🔧 Simple Math Int Inpaint",
+      "properties": {
+        "Node name for S&R": "SimpleMathInt+"
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
       "id": 92,
       "type": "LoadAndResizeImage",
-      "pos": {
-        "0": -430.9576416015625,
-        "1": 181.3160858154297
-      },
-      "size": {
-        "0": 315,
-        "1": 566
-      },
+      "pos": [
+        -427.1187744140625,
+        242.7379608154297
+      ],
+      "size": [
+        315,
+        566
+      ],
       "flags": {},
-      "order": 4,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1011,333 +1281,13 @@
         false,
         640,
         640,
-        1,
+        2,
         false,
         1,
         "alpha",
         "",
         "image"
       ]
-    },
-    {
-      "id": 49,
-      "type": "FluxGuidance",
-      "pos": {
-        "0": 831.320556640625,
-        "1": 157.73423767089844
-      },
-      "size": {
-        "0": 317.4000244140625,
-        "1": 58
-      },
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "conditioning",
-          "type": "CONDITIONING",
-          "link": 74
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            103,
-            127
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FluxGuidance"
-      },
-      "widgets_values": [
-        3
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 73,
-      "type": "UNETLoader",
-      "pos": {
-        "0": -1212.53759765625,
-        "1": -954.1317138671875
-      },
-      "size": {
-        "0": 315,
-        "1": 82
-      },
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            220
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "UNETLoader"
-      },
-      "widgets_values": [
-        "flux1-dev-fp8-e4m3fn.safetensors",
-        "default"
-      ]
-    },
-    {
-      "id": 55,
-      "type": "DualCLIPLoader",
-      "pos": {
-        "0": -1207.53759765625,
-        "1": -810.1316528320312
-      },
-      "size": {
-        "0": 315,
-        "1": 106
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            221
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "DualCLIPLoader"
-      },
-      "widgets_values": [
-        "t5xxl_fp8_e4m3fn_scaled.safetensors",
-        "clip_l.safetensors",
-        "flux"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
-      "id": 70,
-      "type": "EmptyLatentImage",
-      "pos": {
-        "0": -427.9110107421875,
-        "1": -17.764076232910156
-      },
-      "size": {
-        "0": 315,
-        "1": 106
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            137
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "EmptyLatentImage"
-      },
-      "widgets_values": [
-        640,
-        640,
-        2
-      ]
-    },
-    {
-      "id": 82,
-      "type": "LoraLoader",
-      "pos": {
-        "0": -625.5374755859375,
-        "1": -604.1317749023438
-      },
-      "size": {
-        "0": 315,
-        "1": 126
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 220
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 221
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            209
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            210
-          ],
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoader"
-      },
-      "widgets_values": [
-        "Flux\\Style\\amateurphoto-v6-forcu.safetensors",
-        0.7000000000000001,
-        0.7000000000000001
-      ]
-    },
-    {
-      "id": 63,
-      "type": "SaveImage",
-      "pos": {
-        "0": 1237,
-        "1": 435
-      },
-      "size": {
-        "0": 349.33843994140625,
-        "1": 380.9572448730469
-      },
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 203
-        }
-      ],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "ComfyUI"
-      ]
-    },
-    {
-      "id": 104,
-      "type": "LoraLoader",
-      "pos": {
-        "0": -618.5374755859375,
-        "1": -417.1318359375
-      },
-      "size": {
-        "0": 315,
-        "1": 126
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 209
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 210
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            196
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            197
-          ],
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoader"
-      },
-      "widgets_values": [
-        "Flux\\Characters\\aidkad-flux.safetensors",
-        0.8,
-        0.8
-      ]
-    },
-    {
-      "id": 47,
-      "type": "CLIPTextEncode",
-      "pos": {
-        "0": 279.3205261230469,
-        "1": 142.73423767089844
-      },
-      "size": {
-        "0": 510.17376708984375,
-        "1": 231.86048889160156
-      },
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 161
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            74
-          ],
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "photo of a aidkad alone in a room, 1girl\n\nThe image sharp, has a candid, snapshot quality, as if captured spontaneously with a smartphone camera, without watermarks"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
     }
   ],
   "links": [
@@ -1606,22 +1556,6 @@
       "IMAGE"
     ],
     [
-      196,
-      104,
-      0,
-      96,
-      0,
-      "*"
-    ],
-    [
-      197,
-      104,
-      1,
-      97,
-      0,
-      "*"
-    ],
-    [
       200,
       40,
       0,
@@ -1654,23 +1588,7 @@
       "IMAGE"
     ],
     [
-      209,
-      82,
-      0,
-      104,
-      0,
-      "MODEL"
-    ],
-    [
-      210,
-      82,
-      1,
-      104,
-      1,
-      "CLIP"
-    ],
-    [
-      220,
+      265,
       73,
       0,
       82,
@@ -1678,20 +1596,37 @@
       "MODEL"
     ],
     [
-      221,
+      266,
       55,
       0,
       82,
       1,
       "CLIP"
+    ],
+    [
+      269,
+      82,
+      0,
+      96,
+      0,
+      "*"
+    ],
+    [
+      270,
+      82,
+      1,
+      97,
+      0,
+      "*"
     ]
   ],
   "groups": [
     {
+      "id": 1,
       "title": "Inpaint Conditioning",
       "bounding": [
-        114,
-        -744,
+        104.82305908203125,
+        -729.5794677734375,
         875,
         518
       ],
@@ -1700,6 +1635,7 @@
       "flags": {}
     },
     {
+      "id": 2,
       "title": "Out",
       "bounding": [
         1196,
@@ -1712,6 +1648,7 @@
       "flags": {}
     },
     {
+      "id": 3,
       "title": "Conditioning",
       "bounding": [
         261,
@@ -1724,6 +1661,7 @@
       "flags": {}
     },
     {
+      "id": 4,
       "title": "FLUX Sampler",
       "bounding": [
         1547,
@@ -1736,30 +1674,33 @@
       "flags": {}
     },
     {
+      "id": 5,
       "title": "Models",
       "bounding": [
-        -1295,
-        -1210,
-        1330,
-        992
+        -1321.8720703125,
+        -1392.34619140625,
+        1343.1099853515625,
+        1146.6978759765625
       ],
       "color": "#3f789e",
       "font_size": 24,
       "flags": {}
     },
     {
+      "id": 6,
       "title": "Switch generate/inpaint",
       "bounding": [
-        1059,
-        -868,
-        420,
-        661
+        1093.08642578125,
+        -769.6757202148438,
+        384.60302734375,
+        595.4500122070312
       ],
       "color": "#3f789e",
       "font_size": 24,
       "flags": {}
     },
     {
+      "id": 7,
       "title": "In",
       "bounding": [
         -498,
@@ -1775,10 +1716,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.8390545288824651,
+      "scale": 0.4305676431343135,
       "offset": [
-        279.4004491165439,
-        659.1176620434613
+        772.9850784854511,
+        1596.7002491964604
       ]
     }
   },
