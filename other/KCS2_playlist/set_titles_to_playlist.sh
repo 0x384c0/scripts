@@ -20,7 +20,7 @@ while IFS= read -r line; do
         
         # Replace the key with the corresponding value from the mapping
         if [[ -n "${bgm_mapping[$key]}" ]]; then
-            line="#EXTINF:-1,${bgm_mapping[$key]}"
+            line="#EXTINF:0,${bgm_mapping[$key]}"
         fi
     fi
     echo "$line"
