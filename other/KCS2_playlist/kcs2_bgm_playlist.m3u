@@ -1,614 +1,617 @@
 #EXTM3U
-#EXTINF:0,Day BattleCannons and Torpedoes, Fire!
-http://203.104.209.87/kcs2/resources/bgm/battle/001_6601.mp3
-#EXTINF:0,Night BattleRush into the Night Battle!
-http://203.104.209.199/kcs2/resources/bgm/battle/002_8038.mp3
-#EXTINF:0,Fleet Clash! (Southern Ocean Offensive Surveillance!)All Shipgirls, Attack!
-http://125.6.189.7/kcs2/resources/bgm/battle/003_5332.mp3
-#EXTINF:0,Wake of the Second Torpedo Squadron
-http://203.104.209.39/kcs2/resources/bgm/battle/004_5963.mp3
-#EXTINF:0,Next Round Loaded, Re-engage!
-http://203.104.209.183/kcs2/resources/bgm/battle/005_4468.mp3
-#EXTINF:0,Battle the Enemy Task Force!
-http://125.6.189.71/kcs2/resources/bgm/battle/006_4259.mp3
-#EXTINF:0,Maritime Escort Warfare
-http://203.104.209.102/kcs2/resources/bgm/battle/007_2591.mp3
-#EXTINF:0,Scout Planes, Take Off!
-http://125.6.189.167/kcs2/resources/bgm/battle/008_1996.mp3
-#EXTINF:0,Enemy Fleet, Spotted!
-http://203.104.209.150/kcs2/resources/bgm/battle/009_3612.mp3
-#EXTINF:0,On the Dawn's Horizon (instrumental)
-http://203.104.209.102/kcs2/resources/bgm/battle/010_5101.mp3
-#EXTINF:0,Sortie of the Fifth Squad
-http://125.6.189.39/kcs2/resources/bgm/battle/011_2386.mp3
-#EXTINF:0,Hiryuu's Counterattack
-http://203.104.209.87/kcs2/resources/bgm/battle/012_6885.mp3
-#EXTINF:0,The Splendid 2nd Torpedo Squadron
-http://203.104.209.55/kcs2/resources/bgm/battle/013_9664.mp3
-#EXTINF:0,Into the Ocean
-http://203.104.209.102/kcs2/resources/bgm/battle/014_3949.mp3
-#EXTINF:0,Assault! Carrier Task Force
-http://125.6.189.167/kcs2/resources/bgm/battle/015_1376.mp3
-#EXTINF:0,Operation MI
-http://125.6.189.103/kcs2/resources/bgm/battle/016_4005.mp3
-#EXTINF:0,SINK SINK
-http://125.6.189.39/kcs2/resources/bgm/battle/017_7573.mp3
-#EXTINF:0,Commence Operation
-http://203.104.209.71/kcs2/resources/bgm/battle/018_8642.mp3
-#EXTINF:0,Shikon's Defense
-http://125.6.189.7/kcs2/resources/bgm/battle/019_9731.mp3
-#EXTINF:0,The I-Class Below Us
-http://125.6.189.103/kcs2/resources/bgm/battle/020_8569.mp3
-#EXTINF:0,Assault the Enemy's Super-Dreadnought!
-http://125.6.189.103/kcs2/resources/bgm/battle/021_7144.mp3
-#EXTINF:0,Decisive Battle! Escape from Ironbottom Sound!
-http://203.104.209.87/kcs2/resources/bgm/battle/022_5732.mp3
-#EXTINF:0,Sallying Forth in Winter!
-http://203.104.209.199/kcs2/resources/bgm/battle/023_5023.mp3
-#EXTINF:0,Sky of the Autumn Moon
-http://203.104.209.23/kcs2/resources/bgm/battle/025_7257.mp3
-#EXTINF:0,Anti-Air Destroyer, Engage!
-http://125.6.189.215/kcs2/resources/bgm/battle/026_3751.mp3
-#EXTINF:0,Combined Fleet's Sortie
-http://125.6.189.7/kcs2/resources/bgm/battle/027_3582.mp3
-#EXTINF:0,Decisive Fleet Battle
-http://125.6.189.71/kcs2/resources/bgm/battle/028_6315.mp3
-#EXTINF:0,Winter Fleet
-http://203.104.209.102/kcs2/resources/bgm/battle/029_6877.mp3
-#EXTINF:0,Special-type Destroyer
-http://203.104.209.39/kcs2/resources/bgm/battle/030_3064.mp3
-#EXTINF:0,Fubuki, Heading Out!
-http://203.104.209.39/kcs2/resources/bgm/battle/031_2929.mp3
-#EXTINF:0,Fubuki
-http://125.6.189.167/kcs2/resources/bgm/battle/032_4579.mp3
+#EXTINF:-1,Day BattleCannons and Torpedoes, Fire!
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/001_6601.mp3
+#EXTINF:-1,Night BattleRush into the Night Battle!
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/002_8038.mp3
+#EXTINF:-1,Fleet Clash! (Southern Ocean Offensive Surveillance!)All Shipgirls, Attack!
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/003_5332.mp3
+#EXTINF:-1,Wake of the Second Torpedo Squadron
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/004_5963.mp3
+#EXTINF:-1,Next Round Loaded, Re-engage!
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/005_4468.mp3
+#EXTINF:-1,Battle the Enemy Task Force!
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/006_4259.mp3
+#EXTINF:-1,Maritime Escort Warfare
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/007_2591.mp3
+#EXTINF:-1,Scout Planes, Take Off!
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/008_1996.mp3
+#EXTINF:-1,Enemy Fleet, Spotted!
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/009_3612.mp3
+#EXTINF:-1,On the Dawn's Horizon (instrumental)
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/010_5101.mp3
+#EXTINF:-1,Sortie of the Fifth Squad
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/011_2386.mp3
+#EXTINF:-1,Hiryuu's Counterattack
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/012_6885.mp3
+#EXTINF:-1,The Splendid 2nd Torpedo Squadron
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/013_9664.mp3
+#EXTINF:-1,Into the Ocean
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/014_3949.mp3
+#EXTINF:-1,Assault! Carrier Task Force
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/015_1376.mp3
+#EXTINF:-1,Operation MI
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/016_4005.mp3
+#EXTINF:-1,SINK SINK
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/017_7573.mp3
+#EXTINF:-1,Commence Operation
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/018_8642.mp3
+#EXTINF:-1,Shikon's Defense
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/019_9731.mp3
+#EXTINF:-1,The I-Class Below Us
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/020_8569.mp3
+#EXTINF:-1,Assault the Enemy's Super-Dreadnought!
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/021_7144.mp3
+#EXTINF:-1,Decisive Battle! Escape from Ironbottom Sound!
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/022_5732.mp3
+#EXTINF:-1,Sallying Forth in Winter!
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/023_5023.mp3
+#EXTINF:-1,Sky of the Autumn Moon
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/025_7257.mp3
+#EXTINF:-1,Anti-Air Destroyer, Engage!
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/026_3751.mp3
+#EXTINF:-1,Combined Fleet's Sortie
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/027_3582.mp3
+#EXTINF:-1,Decisive Fleet Battle
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/028_6315.mp3
+#EXTINF:-1,Winter Fleet
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/029_6877.mp3
+#EXTINF:-1,Special-type Destroyer
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/030_3064.mp3
+#EXTINF:-1,Fubuki, Heading Out!
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/031_2929.mp3
+#EXTINF:-1,Fubuki
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/032_4579.mp3
 #EXTINF:0,bgm_battle_33
-http://203.104.209.150/kcs2/resources/bgm/battle/033_9355.mp3
-#EXTINF:0,Color of the Sea
-http://125.6.189.71/kcs2/resources/bgm/battle/034_8894.mp3
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/033_9355.mp3
+#EXTINF:-1,Color of the Sea
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/034_8894.mp3
 #EXTINF:0,bgm_battle_35
-http://125.6.189.167/kcs2/resources/bgm/battle/035_4165.mp3
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/035_4165.mp3
 #EXTINF:0,bgm_battle_36
-http://125.6.189.215/kcs2/resources/bgm/battle/036_3497.mp3
-#EXTINF:0,New "Maritime Escort Fleet" sail out!
-http://203.104.209.167/kcs2/resources/bgm/battle/037_8564.mp3
-#EXTINF:0,Battle of the Mutsuki-class Destroyers
-http://125.6.189.247/kcs2/resources/bgm/battle/038_3988.mp3
-#EXTINF:0,Combined Fleet, Westward
-http://125.6.189.167/kcs2/resources/bgm/battle/039_4023.mp3
-#EXTINF:0,Invitation to the Abyss
-http://125.6.184.215/kcs2/resources/bgm/battle/040_6532.mp3
-#EXTINF:0,No Going Back
-http://203.104.209.134/kcs2/resources/bgm/battle/041_7687.mp3
-#EXTINF:0,30th Destroyer Division, Prepare for Sortie!
-http://125.6.189.167/kcs2/resources/bgm/battle/042_3426.mp3
-#EXTINF:0,Invading Enemy Territory
-http://203.104.209.167/kcs2/resources/bgm/battle/043_4714.mp3
-#EXTINF:0,Cape Kaga
-http://203.104.209.167/kcs2/resources/bgm/battle/044_6880.mp3
-#EXTINF:0,Regathering of the Fleet
-http://203.104.209.71/kcs2/resources/bgm/battle/045_1073.mp3
-#EXTINF:0,Sortie! 8th Division
-http://125.6.184.215/kcs2/resources/bgm/battle/046_3243.mp3
-#EXTINF:0,Fleet, toward the Solomon Sea!
-http://203.104.209.23/kcs2/resources/bgm/battle/047_4573.mp3
-#EXTINF:0,Abyssal Surface Task Force
-http://203.104.209.87/kcs2/resources/bgm/battle/048_1661.mp3
-#EXTINF:0,Ironbottom Sound
-http://125.6.189.103/kcs2/resources/bgm/battle/049_1169.mp3
-#EXTINF:0,Clash! Exchanging Fire at Night!
-http://203.104.209.102/kcs2/resources/bgm/battle/050_1027.mp3
-#EXTINF:0,Fleet Gathering
-http://203.104.209.183/kcs2/resources/bgm/battle/051_3472.mp3
-#EXTINF:0,Marine Transport Operation
-http://125.6.189.167/kcs2/resources/bgm/battle/052_2273.mp3
-#EXTINF:0,The Torpedo Squadron's Counterattack
-http://125.6.184.215/kcs2/resources/bgm/battle/053_9046.mp3
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/036_3497.mp3
+#EXTINF:-1,New "Maritime Escort Fleet" sail out!
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/037_8564.mp3
+#EXTINF:-1,Battle of the Mutsuki-class Destroyers
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/038_3988.mp3
+#EXTINF:-1,Combined Fleet, Westward
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/039_4023.mp3
+#EXTINF:-1,Invitation to the Abyss
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/040_6532.mp3
+#EXTINF:-1,No Going Back
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/041_7687.mp3
+#EXTINF:-1,30th Destroyer Division, Prepare for Sortie!
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/042_3426.mp3
+#EXTINF:-1,Invading Enemy Territory
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/043_4714.mp3
+#EXTINF:-1,Cape Kaga
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/044_6880.mp3
+#EXTINF:-1,Regathering of the Fleet
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/045_1073.mp3
+#EXTINF:-1,Sortie! 8th Division
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/046_3243.mp3
+#EXTINF:-1,Fleet, toward the Solomon Sea!
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/047_4573.mp3
+#EXTINF:-1,Abyssal Surface Task Force
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/048_1661.mp3
+#EXTINF:-1,Ironbottom Sound
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/049_1169.mp3
+#EXTINF:-1,Clash! Exchanging Fire at Night!
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/050_1027.mp3
+#EXTINF:-1,Fleet Gathering
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/051_3472.mp3
+#EXTINF:-1,Marine Transport Operation
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/052_2273.mp3
+#EXTINF:-1,The Torpedo Squadron's Counterattack
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/053_9046.mp3
 #EXTINF:0,bgm_battle_54
-http://125.6.189.39/kcs2/resources/bgm/battle/054_4866.mp3
-#EXTINF:0,Night Battle Ambush
-http://203.104.209.87/kcs2/resources/bgm/battle/055_6954.mp3
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/054_4866.mp3
+#EXTINF:-1,Night Battle Ambush
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/055_6954.mp3
 #EXTINF:0,bgm_battle_56
-http://125.6.189.7/kcs2/resources/bgm/battle/056_2989.mp3
-#EXTINF:0,The 2nd Torpedo Squadron in Winter
-http://125.6.189.215/kcs2/resources/bgm/battle/057_9555.mp3
-#EXTINF:0,Operation Rei-gō
-http://125.6.189.215/kcs2/resources/bgm/battle/058_8307.mp3
-#EXTINF:0,Fleet, Assault! Attack the Landing Convoy
-http://203.104.209.55/kcs2/resources/bgm/battle/059_7288.mp3
-#EXTINF:0,The Paean of Operation Rei-gō
-http://125.6.184.215/kcs2/resources/bgm/battle/060_4495.mp3
-#EXTINF:0,Battlewaters
-http://203.104.209.150/kcs2/resources/bgm/battle/061_8230.mp3
-#EXTINF:0,From Bottom of the Water
-http://125.6.189.215/kcs2/resources/bgm/battle/062_1120.mp3
-#EXTINF:0,Allied Nation's Task Force
-http://125.6.189.71/kcs2/resources/bgm/battle/063_4405.mp3
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/056_2989.mp3
+#EXTINF:-1,The 2nd Torpedo Squadron in Winter
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/057_9555.mp3
+#EXTINF:-1,Operation Rei-gō
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/058_8307.mp3
+#EXTINF:-1,Fleet, Assault! Attack the Landing Convoy
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/059_7288.mp3
+#EXTINF:-1,The Paean of Operation Rei-gō
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/060_4495.mp3
+#EXTINF:-1,Battlewaters
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/061_8230.mp3
+#EXTINF:-1,From Bottom of the Water
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/062_1120.mp3
+#EXTINF:-1,Allied Nation's Task Force
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/063_4405.mp3
 #EXTINF:0,bgm_battle_64
-http://125.6.189.71/kcs2/resources/bgm/battle/064_2852.mp3
-#EXTINF:0,Distant Allies
-http://203.104.209.199/kcs2/resources/bgm/battle/065_3862.mp3
-#EXTINF:0,Erosion of the Crimson Sea
-http://203.104.209.199/kcs2/resources/bgm/battle/066_2735.mp3
-#EXTINF:0,Attack the Enemy Aviation Base
-http://203.104.209.71/kcs2/resources/bgm/battle/067_5564.mp3
-#EXTINF:0,Beyond the Surging Sea
-http://125.6.184.215/kcs2/resources/bgm/battle/068_5980.mp3
-#EXTINF:0,Rest Time of the Technicians
-http://125.6.189.103/kcs2/resources/bgm/battle/069_4434.mp3
-#EXTINF:0,Interception Squad, Sortie!
-http://203.104.209.39/kcs2/resources/bgm/battle/070_7963.mp3
-#EXTINF:0,Search! The Enemy's Eastern Fleet
-http://125.6.189.7/kcs2/resources/bgm/battle/071_4015.mp3
-#EXTINF:0,The Eastern Witch
-http://203.104.209.199/kcs2/resources/bgm/battle/072_8940.mp3
-#EXTINF:0,Those Who Detest War
-http://203.104.209.167/kcs2/resources/bgm/battle/073_8737.mp3
-#EXTINF:0,Land Base Air Corps
-http://203.104.209.87/kcs2/resources/bgm/battle/074_9811.mp3
-#EXTINF:0,Wings of Sea Eagles
-http://125.6.189.247/kcs2/resources/bgm/battle/075_9743.mp3
-#EXTINF:0,Naval Base Saury Festival Kai
-http://125.6.189.7/kcs2/resources/bgm/battle/076_2481.mp3
-#EXTINF:0,The Shipgirl Festival Dance
-http://125.6.189.71/kcs2/resources/bgm/battle/077_1573.mp3
-#EXTINF:0,Cordon
-http://125.6.189.103/kcs2/resources/bgm/battle/078_3653.mp3
-#EXTINF:0,World Under the Water
-http://125.6.189.215/kcs2/resources/bgm/battle/079_1580.mp3
-#EXTINF:0,Chase the Carrier Task Force!
-http://203.104.209.199/kcs2/resources/bgm/battle/080_2458.mp3
-#EXTINF:0,Bubbles around Shangria
-http://203.104.209.23/kcs2/resources/bgm/battle/081_8773.mp3
-#EXTINF:0,Beyond the Shore
-http://125.6.189.103/kcs2/resources/bgm/battle/082_7787.mp3
-#EXTINF:0,Home Port on Christmas Eve
-http://125.6.189.7/kcs2/resources/bgm/battle/083_4096.mp3
-#EXTINF:0,December at the Naval Base
-http://203.104.209.23/kcs2/resources/bgm/battle/084_7797.mp3
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/064_2852.mp3
+#EXTINF:-1,Distant Allies
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/065_3862.mp3
+#EXTINF:-1,Erosion of the Crimson Sea
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/066_2735.mp3
+#EXTINF:-1,Attack the Enemy Aviation Base
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/067_5564.mp3
+#EXTINF:-1,Beyond the Surging Sea
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/068_5980.mp3
+#EXTINF:-1,Rest Time of the Technicians
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/069_4434.mp3
+#EXTINF:-1,Interception Squad, Sortie!
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/070_7963.mp3
+#EXTINF:-1,Search! The Enemy's Eastern Fleet
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/071_4015.mp3
+#EXTINF:-1,The Eastern Witch
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/072_8940.mp3
+#EXTINF:-1,Those Who Detest War
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/073_8737.mp3
+#EXTINF:-1,Land Base Air Corps
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/074_9811.mp3
+#EXTINF:-1,Wings of Sea Eagles
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/075_9743.mp3
+#EXTINF:-1,Naval Base Saury Festival Kai
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/076_2481.mp3
+#EXTINF:-1,The Shipgirl Festival Dance
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/077_1573.mp3
+#EXTINF:-1,Cordon
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/078_3653.mp3
+#EXTINF:-1,World Under the Water
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/079_1580.mp3
+#EXTINF:-1,Chase the Carrier Task Force!
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/080_2458.mp3
+#EXTINF:-1,Bubbles around Shangria
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/081_8773.mp3
+#EXTINF:-1,Beyond the Shore
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/082_7787.mp3
+#EXTINF:-1,Home Port on Christmas Eve
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/083_4096.mp3
+#EXTINF:-1,December at the Naval Base
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/084_7797.mp3
 #EXTINF:0,bgm_battle_85
-http://125.6.189.215/kcs2/resources/bgm/battle/085_6651.mp3
-#EXTINF:0,Harbor in Maizuru
-http://203.104.209.134/kcs2/resources/bgm/battle/086_2227.mp3
-#EXTINF:0,Operation 'Hikari'
-http://203.104.209.23/kcs2/resources/bgm/battle/087_6555.mp3
-#EXTINF:0,Heading for Truk
-http://125.6.189.71/kcs2/resources/bgm/battle/088_1326.mp3
-#EXTINF:0,The Distant Ulithi Anchorage
-http://203.104.209.23/kcs2/resources/bgm/battle/089_7699.mp3
-#EXTINF:0,Gathering of the Northeastern Fleet
-http://203.104.209.87/kcs2/resources/bgm/battle/090_5926.mp3
-#EXTINF:0,Hard Fight of the Fifth Fleet
-http://203.104.209.71/kcs2/resources/bgm/battle/091_4558.mp3
-#EXTINF:0,Decisive Northern Naval Battle
-http://203.104.209.183/kcs2/resources/bgm/battle/092_6634.mp3
-#EXTINF:0,Shikon's Counterattack
-http://203.104.209.39/kcs2/resources/bgm/battle/093_8428.mp3
-#EXTINF:0,Combined Fleet Flagship
-http://203.104.209.71/kcs2/resources/bgm/battle/094_5783.mp3
-#EXTINF:0,Commence Western Through Operation
-http://203.104.209.199/kcs2/resources/bgm/battle/095_3559.mp3
-#EXTINF:0,Special Squadron, Weigh Anchor! To the West
-http://203.104.209.102/kcs2/resources/bgm/battle/096_1973.mp3
-#EXTINF:0,Battle of the Special Squadron
-http://203.104.209.150/kcs2/resources/bgm/battle/097_2564.mp3
-#EXTINF:0,Western Sea
-http://125.6.189.7/kcs2/resources/bgm/battle/098_7972.mp3
-#EXTINF:0,Battle of the Mediterranean Sea
-http://203.104.209.39/kcs2/resources/bgm/battle/099_4845.mp3
-#EXTINF:0,Requiem for the Atlantic Ocean
-http://125.6.189.7/kcs2/resources/bgm/battle/100_9394.mp3
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/085_6651.mp3
+#EXTINF:-1,Harbor in Maizuru
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/086_2227.mp3
+#EXTINF:-1,Operation 'Hikari'
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/087_6555.mp3
+#EXTINF:-1,Heading for Truk
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/088_1326.mp3
+#EXTINF:-1,The Distant Ulithi Anchorage
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/089_7699.mp3
+#EXTINF:-1,Gathering of the Northeastern Fleet
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/090_5926.mp3
+#EXTINF:-1,Hard Fight of the Fifth Fleet
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/091_4558.mp3
+#EXTINF:-1,Decisive Northern Naval Battle
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/092_6634.mp3
+#EXTINF:-1,Shikon's Counterattack
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/093_8428.mp3
+#EXTINF:-1,Combined Fleet Flagship
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/094_5783.mp3
+#EXTINF:-1,Commence Western Through Operation
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/095_3559.mp3
+#EXTINF:-1,Special Squadron, Weigh Anchor! To the West
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/096_1973.mp3
+#EXTINF:-1,Battle of the Special Squadron
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/097_2564.mp3
+#EXTINF:-1,Western Sea
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/098_7972.mp3
+#EXTINF:-1,Battle of the Mediterranean Sea
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/099_4845.mp3
+#EXTINF:-1,Requiem for the Atlantic Ocean
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/100_9394.mp3
 #EXTINF:0,bgm_battle_101
-http://203.104.209.134/kcs2/resources/bgm/battle/101_9316.mp3
-#EXTINF:0,Naval Base Saury Festival Kai Ni
-http://203.104.209.134/kcs2/resources/bgm/battle/102_5481.mp3
-#EXTINF:0,Operation Sho-go's Eve
-http://203.104.209.39/kcs2/resources/bgm/battle/103_3787.mp3
-#EXTINF:0,Operation Sho-ichi-go
-http://203.104.209.183/kcs2/resources/bgm/battle/104_3769.mp3
-#EXTINF:0,Intense Battle! Strike Force
-http://203.104.209.199/kcs2/resources/bgm/battle/105_9440.mp3
-#EXTINF:0,To the Strait
-http://203.104.209.71/kcs2/resources/bgm/battle/106_1719.mp3
-#EXTINF:0,Battles of the Nishimura Fleet
-http://203.104.209.71/kcs2/resources/bgm/battle/107_7546.mp3
-#EXTINF:0,Prayer
-http://203.104.209.199/kcs2/resources/bgm/battle/108_5645.mp3
-#EXTINF:0,Eve of the Final BattleEve of Sortie
-http://125.6.189.247/kcs2/resources/bgm/battle/109_1991.mp3
-#EXTINF:0,Advance of the First Striking Force
-http://125.6.189.39/kcs2/resources/bgm/battle/110_3889.mp3
-#EXTINF:0,Battle of Leyte Gulf
-http://203.104.209.23/kcs2/resources/bgm/battle/111_5101.mp3
-#EXTINF:0,Through the Sibuyan Sea
-http://125.6.189.135/kcs2/resources/bgm/battle/112_4328.mp3
-#EXTINF:0,Friend Fleet! Begin Counterattack
-http://125.6.189.247/kcs2/resources/bgm/battle/113_8119.mp3
-#EXTINF:0,The Sea Where the Crane Falls
-http://203.104.209.23/kcs2/resources/bgm/battle/114_1755.mp3
-#EXTINF:0,I am not a decoy without wings
-http://125.6.189.247/kcs2/resources/bgm/battle/115_6348.mp3
-#EXTINF:0,Memories of Shigure
-http://125.6.189.71/kcs2/resources/bgm/battle/116_1465.mp3
-#EXTINF:0,Prototype Shigure of Sasebo (Inst.)
-http://125.6.189.39/kcs2/resources/bgm/battle/117_3555.mp3
-#EXTINF:0,The Glistening Dew After The Rainy Season
-http://125.6.189.167/kcs2/resources/bgm/battle/118_3318.mp3
-#EXTINF:0,Afternoon at Southwestern Waters
-http://203.104.209.23/kcs2/resources/bgm/battle/119_8110.mp3
-#EXTINF:0,Westward Cross-Through Operation
-http://203.104.209.87/kcs2/resources/bgm/battle/120_7357.mp3
-#EXTINF:0,Combined Fleet, Westward Again
-http://125.6.189.103/kcs2/resources/bgm/battle/121_9859.mp3
-#EXTINF:0,The Wind of Genoa
-http://203.104.209.102/kcs2/resources/bgm/battle/122_3175.mp3
-#EXTINF:0,New Operation Rheinübung
-http://203.104.209.167/kcs2/resources/bgm/battle/123_3478.mp3
-#EXTINF:0,Decisive Battle! North Atlantic
-http://203.104.209.134/kcs2/resources/bgm/battle/124_8714.mp3
-#EXTINF:0,Naval Base Saury Festival Kai San
-http://203.104.209.39/kcs2/resources/bgm/battle/125_3256.mp3
-#EXTINF:0,Central Solomon Sea Operation
-http://125.6.189.39/kcs2/resources/bgm/battle/126_1211.mp3
-#EXTINF:0,Murasame and Minegumo's Sortie
-http://203.104.209.199/kcs2/resources/bgm/battle/127_8537.mp3
-#EXTINF:0,Breach the Trap of the Enemy Radar!
-http://125.6.189.103/kcs2/resources/bgm/battle/128_9964.mp3
-#EXTINF:0,Operation 603
-http://203.104.209.150/kcs2/resources/bgm/battle/129_5256.mp3
-#EXTINF:0,A Place the Sun Goes Forward
-http://203.104.209.183/kcs2/resources/bgm/battle/130_1852.mp3
-#EXTINF:0,Interception! Operation Buin Defense
-http://203.104.209.150/kcs2/resources/bgm/battle/131_5644.mp3
-#EXTINF:0,The Sky of Zuiun
-http://125.6.189.135/kcs2/resources/bgm/battle/132_2022.mp3
-#EXTINF:0,Naganami, Running Forth
-http://125.6.189.39/kcs2/resources/bgm/battle/133_7810.mp3
-#EXTINF:0,Gathering Heroes at Hitokappu Bay
-http://203.104.209.167/kcs2/resources/bgm/battle/134_6700.mp3
-#EXTINF:0,Carrier Task Force, Sail Out!
-http://203.104.209.183/kcs2/resources/bgm/battle/135_9137.mp3
-#EXTINF:0,Carrier Attack Fleet, Take Off!
-http://203.104.209.199/kcs2/resources/bgm/battle/136_9930.mp3
-#EXTINF:0,Tactics of the Enemy Task Force
-http://125.6.189.71/kcs2/resources/bgm/battle/137_4546.mp3
-#EXTINF:0,The Crimson Sea Where Abyssals Occupy
-http://125.6.189.103/kcs2/resources/bgm/battle/138_7637.mp3
-#EXTINF:0,Wind of the North Atlantic
-http://125.6.189.71/kcs2/resources/bgm/battle/139_2402.mp3
-#EXTINF:0,European Defense Operation
-http://125.6.189.39/kcs2/resources/bgm/battle/140_5320.mp3
-#EXTINF:0,War Demon of Gibraltar
-http://203.104.209.23/kcs2/resources/bgm/battle/141_1429.mp3
-#EXTINF:0,A Sea Breeze in the Mediterranean Sea
-http://125.6.184.215/kcs2/resources/bgm/battle/142_9842.mp3
-#EXTINF:0,Shigure of Sasebo (Instrumental)
-http://203.104.209.87/kcs2/resources/bgm/battle/143_3169.mp3
-#EXTINF:0,Battle of Anzio
-http://203.104.209.134/kcs2/resources/bgm/battle/144_4686.mp3
-#EXTINF:0,Southern Combat Patrol
-http://125.6.189.215/kcs2/resources/bgm/battle/145_6045.mp3
-#EXTINF:0,DesDiv 8's Interception
-http://125.6.189.71/kcs2/resources/bgm/battle/146_9676.mp3
-#EXTINF:0,DesDiv 8's Interception Kai (Instrumental)
-http://203.104.209.150/kcs2/resources/bgm/battle/147_9528.mp3
-#EXTINF:0,E-1, E-2 Boss, E-4 Battle
-http://203.104.209.102/kcs2/resources/bgm/battle/148_5310.mp3
-#EXTINF:0,Yuugumo Class of Davao Sea
-http://203.104.209.150/kcs2/resources/bgm/battle/149_8521.mp3
-#EXTINF:0,Fierce Battle! Third Battle of Solomon
-http://203.104.209.39/kcs2/resources/bgm/battle/150_8788.mp3
-#EXTINF:0,Nights of Hiei and Kirishima
-http://125.6.189.167/kcs2/resources/bgm/battle/151_6187.mp3
-#EXTINF:0,Reiwa's Doll Festival
-http://203.104.209.39/kcs2/resources/bgm/battle/152_8689.mp3
-#EXTINF:0,Waves in the Offing
-http://203.104.209.199/kcs2/resources/bgm/battle/153_7501.mp3
-#EXTINF:0,Island Defense Operation
-http://125.6.189.7/kcs2/resources/bgm/battle/154_2672.mp3
-#EXTINF:0,Battle of Transport Escort Fleet
-http://203.104.209.134/kcs2/resources/bgm/battle/155_2953.mp3
-#EXTINF:0,Matsu's Counterattack
-http://203.104.209.199/kcs2/resources/bgm/battle/156_9422.mp3
-#EXTINF:0,Island Maritime Transport Operation
-http://203.104.209.134/kcs2/resources/bgm/battle/157_5537.mp3
-#EXTINF:0,Eve of Solomon
-http://203.104.209.23/kcs2/resources/bgm/battle/158_2983.mp3
-#EXTINF:0,Night Battle of Ironbottom Sound
-http://125.6.189.103/kcs2/resources/bgm/battle/159_5667.mp3
-#EXTINF:0,Decisive Battle! South Pacific Naval Battle
-http://203.104.209.55/kcs2/resources/bgm/battle/160_3283.mp3
-#EXTINF:0,A Sketch Akigumo Drew
-http://125.6.189.247/kcs2/resources/bgm/battle/161_1972.mp3
-#EXTINF:0,The Miracle of Yukikaze
-http://203.104.209.55/kcs2/resources/bgm/battle/162_7536.mp3
-#EXTINF:0,Commence! Operation MG1
-http://125.6.189.215/kcs2/resources/bgm/battle/163_2860.mp3
-#EXTINF:0,Battle of Barents Sea
-http://125.6.189.247/kcs2/resources/bgm/battle/164_9631.mp3
-#EXTINF:0,Escort the PQ17 Fleet!
-http://203.104.209.167/kcs2/resources/bgm/battle/165_8834.mp3
-#EXTINF:0,Arctic Sea Route Escort Warfare
-http://203.104.209.183/kcs2/resources/bgm/battle/166_9168.mp3
-#EXTINF:0,Night of Ormoc Bay
-http://125.6.184.215/kcs2/resources/bgm/battle/167_1546.mp3
-#EXTINF:0,Battle of Ormoc Bay Kai
-http://203.104.209.39/kcs2/resources/bgm/battle/168_9629.mp3
-#EXTINF:0,Take's Splendor
-http://125.6.189.39/kcs2/resources/bgm/battle/169_2813.mp3
-#EXTINF:0,Sea of the Reiwa New Year
-http://125.6.189.135/kcs2/resources/bgm/battle/170_6751.mp3
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/101_9316.mp3
+#EXTINF:-1,Naval Base Saury Festival Kai Ni
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/102_5481.mp3
+#EXTINF:-1,Operation Sho-go's Eve
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/103_3787.mp3
+#EXTINF:-1,Operation Sho-ichi-go
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/104_3769.mp3
+#EXTINF:-1,Intense Battle! Strike Force
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/105_9440.mp3
+#EXTINF:-1,To the Strait
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/106_1719.mp3
+#EXTINF:-1,Battles of the Nishimura Fleet
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/107_7546.mp3
+#EXTINF:-1,Prayer
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/108_5645.mp3
+#EXTINF:-1,Eve of the Final BattleEve of Sortie
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/109_1991.mp3
+#EXTINF:-1,Advance of the First Striking Force
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/110_3889.mp3
+#EXTINF:-1,Battle of Leyte Gulf
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/111_5101.mp3
+#EXTINF:-1,Through the Sibuyan Sea
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/112_4328.mp3
+#EXTINF:-1,Friend Fleet! Begin Counterattack
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/113_8119.mp3
+#EXTINF:-1,The Sea Where the Crane Falls
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/114_1755.mp3
+#EXTINF:-1,I am not a decoy without wings
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/115_6348.mp3
+#EXTINF:-1,Memories of Shigure
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/116_1465.mp3
+#EXTINF:-1,Prototype Shigure of Sasebo (Inst.)
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/117_3555.mp3
+#EXTINF:-1,The Glistening Dew After The Rainy Season
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/118_3318.mp3
+#EXTINF:-1,Afternoon at Southwestern Waters
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/119_8110.mp3
+#EXTINF:-1,Westward Cross-Through Operation
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/120_7357.mp3
+#EXTINF:-1,Combined Fleet, Westward Again
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/121_9859.mp3
+#EXTINF:-1,The Wind of Genoa
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/122_3175.mp3
+#EXTINF:-1,New Operation Rheinübung
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/123_3478.mp3
+#EXTINF:-1,Decisive Battle! North Atlantic
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/124_8714.mp3
+#EXTINF:-1,Naval Base Saury Festival Kai San
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/125_3256.mp3
+#EXTINF:-1,Central Solomon Sea Operation
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/126_1211.mp3
+#EXTINF:-1,Murasame and Minegumo's Sortie
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/127_8537.mp3
+#EXTINF:-1,Breach the Trap of the Enemy Radar!
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/128_9964.mp3
+#EXTINF:-1,Operation 603
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/129_5256.mp3
+#EXTINF:-1,A Place the Sun Goes Forward
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/130_1852.mp3
+#EXTINF:-1,Interception! Operation Buin Defense
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/131_5644.mp3
+#EXTINF:-1,The Sky of Zuiun
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/132_2022.mp3
+#EXTINF:-1,Naganami, Running Forth
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/133_7810.mp3
+#EXTINF:-1,Gathering Heroes at Hitokappu Bay
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/134_6700.mp3
+#EXTINF:-1,Carrier Task Force, Sail Out!
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/135_9137.mp3
+#EXTINF:-1,Carrier Attack Fleet, Take Off!
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/136_9930.mp3
+#EXTINF:-1,Tactics of the Enemy Task Force
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/137_4546.mp3
+#EXTINF:-1,The Crimson Sea Where Abyssals Occupy
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/138_7637.mp3
+#EXTINF:-1,Wind of the North Atlantic
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/139_2402.mp3
+#EXTINF:-1,European Defense Operation
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/140_5320.mp3
+#EXTINF:-1,War Demon of Gibraltar
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/141_1429.mp3
+#EXTINF:-1,A Sea Breeze in the Mediterranean Sea
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/142_9842.mp3
+#EXTINF:-1,Shigure of Sasebo (Instrumental)
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/143_3169.mp3
+#EXTINF:-1,Battle of Anzio
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/144_4686.mp3
+#EXTINF:-1,Southern Combat Patrol
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/145_6045.mp3
+#EXTINF:-1,DesDiv 8's Interception
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/146_9676.mp3
+#EXTINF:-1,DesDiv 8's Interception Kai (Instrumental)
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/147_9528.mp3
+#EXTINF:-1,E-1, E-2 Boss, E-4 Battle
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/148_5310.mp3
+#EXTINF:-1,Yuugumo Class of Davao Sea
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/149_8521.mp3
+#EXTINF:-1,Fierce Battle! Third Battle of Solomon
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/150_8788.mp3
+#EXTINF:-1,Nights of Hiei and Kirishima
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/151_6187.mp3
+#EXTINF:-1,Reiwa's Doll Festival
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/152_8689.mp3
+#EXTINF:-1,Waves in the Offing
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/153_7501.mp3
+#EXTINF:-1,Island Defense Operation
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/154_2672.mp3
+#EXTINF:-1,Battle of Transport Escort Fleet
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/155_2953.mp3
+#EXTINF:-1,Matsu's Counterattack
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/156_9422.mp3
+#EXTINF:-1,Island Maritime Transport Operation
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/157_5537.mp3
+#EXTINF:-1,Eve of Solomon
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/158_2983.mp3
+#EXTINF:-1,Night Battle of Ironbottom Sound
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/159_5667.mp3
+#EXTINF:-1,Decisive Battle! South Pacific Naval Battle
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/160_3283.mp3
+#EXTINF:-1,A Sketch Akigumo Drew
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/161_1972.mp3
+#EXTINF:-1,The Miracle of Yukikaze
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/162_7536.mp3
+#EXTINF:-1,Commence! Operation MG1
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/163_2860.mp3
+#EXTINF:-1,Battle of Barents Sea
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/164_9631.mp3
+#EXTINF:-1,Escort the PQ17 Fleet!
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/165_8834.mp3
+#EXTINF:-1,Arctic Sea Route Escort Warfare
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/166_9168.mp3
+#EXTINF:-1,Night of Ormoc Bay
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/167_1546.mp3
+#EXTINF:-1,Battle of Ormoc Bay Kai
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/168_9629.mp3
+#EXTINF:-1,Take's Splendor
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/169_2813.mp3
+#EXTINF:-1,Sea of the Reiwa New Year
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/170_6751.mp3
 #EXTINF:0,bgm_battle_171
-http://125.6.189.103/kcs2/resources/bgm/battle/171_6730.mp3
-#EXTINF:0,Valentine's Sea
-http://125.6.189.39/kcs2/resources/bgm/battle/172_6383.mp3
-#EXTINF:0,31st Squadron
-http://125.6.189.39/kcs2/resources/bgm/battle/173_7192.mp3
-#EXTINF:0,Battle of the Sixth Fleet
-http://125.6.189.39/kcs2/resources/bgm/battle/174_7617.mp3
-#EXTINF:0,Battle of Lunga Point
-http://203.104.209.87/kcs2/resources/bgm/battle/175_5742.mp3
-#EXTINF:0,Battle of Lunga Point
-http://203.104.209.39/kcs2/resources/bgm/battle/176_8914.mp3
-#EXTINF:0,Striking Force of Rabaul
-http://125.6.189.103/kcs2/resources/bgm/battle/177_6528.mp3
-#EXTINF:0,Night of Rabaul
-http://203.104.209.39/kcs2/resources/bgm/battle/178_7302.mp3
-#EXTINF:0,Sortie of the Striking Force
-http://203.104.209.23/kcs2/resources/bgm/battle/179_8932.mp3
-#EXTINF:0,Elite 2nd Torpedo Squadron
-http://125.6.184.215/kcs2/resources/bgm/battle/180_1246.mp3
-#EXTINF:0,Attack of the 2nd Torpedo Squadron
-http://203.104.209.167/kcs2/resources/bgm/battle/181_2515.mp3
-#EXTINF:0,Through the Suez
-http://203.104.209.87/kcs2/resources/bgm/battle/182_5230.mp3
-#EXTINF:0,Weigh Anchor! To Alexandria!
-http://125.6.189.247/kcs2/resources/bgm/battle/183_2551.mp3
-#EXTINF:0,Fierce Fight of the Mediterranean Fleet
-http://203.104.209.199/kcs2/resources/bgm/battle/184_5603.mp3
-#EXTINF:0,Summer Dreadnought
-http://203.104.209.183/kcs2/resources/bgm/battle/185_2650.mp3
-#EXTINF:0,Operation Pedestal
-http://203.104.209.102/kcs2/resources/bgm/battle/186_8660.mp3
-#EXTINF:0,E3 Final Boss
-http://203.104.209.71/kcs2/resources/bgm/battle/187_2537.mp3
-#EXTINF:0,Trick or Fleet!
-http://125.6.189.39/kcs2/resources/bgm/battle/188_4975.mp3
-#EXTINF:0,Glimmer of the Coast of Nemuro
-http://203.104.209.71/kcs2/resources/bgm/battle/189_6078.mp3
-#EXTINF:0,Operation Nangou
-http://203.104.209.23/kcs2/resources/bgm/battle/190_4714.mp3
-#EXTINF:0,1st Escort Fleet's Battle
-http://125.6.189.167/kcs2/resources/bgm/battle/191_7273.mp3
-#EXTINF:0,Troop Convoy's Wakes
-http://203.104.209.134/kcs2/resources/bgm/battle/192_4077.mp3
-#EXTINF:0,E3 2nd boss, E3 Final boss
-http://125.6.189.135/kcs2/resources/bgm/battle/193_6883.mp3
-#EXTINF:0,A Guard of The New Year
-http://125.6.189.71/kcs2/resources/bgm/battle/194_3589.mp3
-#EXTINF:0,Main Operation Map Screen
-http://203.104.209.134/kcs2/resources/bgm/battle/195_8531.mp3
-#EXTINF:0,E-1, E-2 Normal Battle
-http://125.6.189.7/kcs2/resources/bgm/battle/196_8406.mp3
-#EXTINF:0,E-2 to E-4 Boss Battle, E-5 Normal Battle
-http://125.6.189.71/kcs2/resources/bgm/battle/197_7519.mp3
-#EXTINF:0,E-1 Boss Battle, E-3, E-4 Normal Battle
-http://203.104.209.150/kcs2/resources/bgm/battle/198_2648.mp3
-#EXTINF:0,Extra Operation Map Screen
-http://125.6.184.215/kcs2/resources/bgm/battle/199_3224.mp3
-#EXTINF:0,E-5 Boss Battle
-http://125.6.189.167/kcs2/resources/bgm/battle/200_8182.mp3
-#EXTINF:0,Main Operation Map Screen
-http://203.104.209.150/kcs2/resources/bgm/battle/201_3058.mp3
-#EXTINF:0,E-1, E-2 Normal Battle
-http://203.104.209.150/kcs2/resources/bgm/battle/202_2924.mp3
-#EXTINF:0,E-1 Boss battle, E-2 1st boss, E-3 and E-4 Normal Battle
-http://125.6.189.39/kcs2/resources/bgm/battle/203_2242.mp3
-#EXTINF:0,E-3 2nd and 3rd Boss battle, E-4 2nd and 3rd Boss etc.
-http://203.104.209.23/kcs2/resources/bgm/battle/204_1575.mp3
-#EXTINF:0,Extra Operation Map Screen
-http://203.104.209.167/kcs2/resources/bgm/battle/205_5439.mp3
-#EXTINF:0,E4 1st boss, E-5 Normal Battle
-http://203.104.209.87/kcs2/resources/bgm/battle/206_8152.mp3
-#EXTINF:0,E-5 3rd and Final Boss
-http://125.6.189.135/kcs2/resources/bgm/battle/207_3528.mp3
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/171_6730.mp3
+#EXTINF:-1,Valentine's Sea
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/172_6383.mp3
+#EXTINF:-1,31st Squadron
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/173_7192.mp3
+#EXTINF:-1,Battle of the Sixth Fleet
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/174_7617.mp3
+#EXTINF:-1,Battle of Lunga Point
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/175_5742.mp3
+#EXTINF:-1,Battle of Lunga Point
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/176_8914.mp3
+#EXTINF:-1,Striking Force of Rabaul
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/177_6528.mp3
+#EXTINF:-1,Night of Rabaul
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/178_7302.mp3
+#EXTINF:-1,Sortie of the Striking Force
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/179_8932.mp3
+#EXTINF:-1,Elite 2nd Torpedo Squadron
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/180_1246.mp3
+#EXTINF:-1,Attack of the 2nd Torpedo Squadron
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/181_2515.mp3
+#EXTINF:-1,Through the Suez
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/182_5230.mp3
+#EXTINF:-1,Weigh Anchor! To Alexandria!
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/183_2551.mp3
+#EXTINF:-1,Fierce Fight of the Mediterranean Fleet
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/184_5603.mp3
+#EXTINF:-1,Summer Dreadnought
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/185_2650.mp3
+#EXTINF:-1,Operation Pedestal
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/186_8660.mp3
+#EXTINF:-1,War Wings of Malta
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/187_2537.mp3
+#EXTINF:-1,Trick or Fleet!
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/188_4975.mp3
+#EXTINF:-1,Glimmer of the Coast of Nemuro
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/189_6078.mp3
+#EXTINF:-1,Operation Nangou
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/190_4714.mp3
+#EXTINF:-1,1st Escort Fleet's Battle
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/191_7273.mp3
+#EXTINF:-1,Troop Convoy's Wakes
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/192_4077.mp3
+#EXTINF:-1,Deadly Battle of Hachijojima Island
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/193_6883.mp3
+#EXTINF:-1,New Year's Protection Charm
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/194_3589.mp3
+#EXTINF:-1,Nansei Islands Maritime Escort
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/195_8531.mp3
+#EXTINF:-1,Across the Bashi Channel
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/196_8406.mp3
+#EXTINF:-1,Defense! Commence Operation Sho-san-go
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/197_7519.mp3
+#EXTINF:-1,Shi-Ma Convoy Escort Operation
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/198_2648.mp3
+#EXTINF:-1,Moon Over Kitakyushu
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/199_3224.mp3
+#EXTINF:-1,Kitakyushu Air Defense
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/200_8182.mp3
+#EXTINF:-1,Advance to the Rabaul Air Base
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/201_3058.mp3
+#EXTINF:-1,Rabaul Air Force
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/202_2924.mp3
+#EXTINF:-1,R Area Operation
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/203_2242.mp3
+#EXTINF:-1,Deadly Battle of the Rabaul Air Force
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/204_1575.mp3
+#EXTINF:-1,Beyond the Bungo Channel
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/205_5439.mp3
+#EXTINF:-1,3rd Cruising Formation
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/206_8152.mp3
+#EXTINF:-1,Between the Waves of Bonomisaki
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/207_3528.mp3
 #EXTINF:0,bgm_battle_208
-http://125.6.189.167/kcs2/resources/bgm/battle/208_9294.mp3
-#EXTINF:0,Main Operation Map Screen
-http://125.6.189.71/kcs2/resources/bgm/battle/209_9343.mp3
-#EXTINF:0,E-1, E-2 Normal Battle, E-3 Map Screen
-http://125.6.189.167/kcs2/resources/bgm/battle/210_2677.mp3
-#EXTINF:0,E1, E-2 boss, E-3 Normal Battle
-http://203.104.209.87/kcs2/resources/bgm/battle/211_7816.mp3
-#EXTINF:0,E-3 2nd Boss Battle, E-4 Bosses, E-5 Normal Battle
-http://203.104.209.23/kcs2/resources/bgm/battle/212_1771.mp3
-#EXTINF:0,Extra Operation Map Screen
-http://125.6.189.39/kcs2/resources/bgm/battle/213_6574.mp3
-#EXTINF:0,E-5 3rd and Final Boss, E-6 Normal Battle
-http://125.6.189.135/kcs2/resources/bgm/battle/214_8534.mp3
-#EXTINF:0,E-6 3rd Boss
-http://203.104.209.183/kcs2/resources/bgm/battle/215_2347.mp3
-#EXTINF:0,E-6 Final Boss
-http://125.6.189.71/kcs2/resources/bgm/battle/216_7898.mp3
-#EXTINF:0,This Moment
-http://203.104.209.23/kcs2/resources/bgm/battle/217_8510.mp3
-#EXTINF:0,Main Operation Map Screen
-http://203.104.209.55/kcs2/resources/bgm/battle/218_6967.mp3
-#EXTINF:0,E-1 and E-2 Normal Battle, E-3 Map Screen
-http://203.104.209.199/kcs2/resources/bgm/battle/219_6489.mp3
-#EXTINF:0,E1 and Main E-2 Boss Battle etc.
-http://203.104.209.71/kcs2/resources/bgm/battle/220_6145.mp3
-#EXTINF:0,E-3 Boss Battle etc.
-http://125.6.189.7/kcs2/resources/bgm/battle/221_3601.mp3
-#EXTINF:0,Extra Operation Map Screen
-http://125.6.189.103/kcs2/resources/bgm/battle/222_9591.mp3
-#EXTINF:0,E-5, E-6 Normal Battle
-http://203.104.209.102/kcs2/resources/bgm/battle/223_1933.mp3
-#EXTINF:0,E-5 Main Boss Battle, E-6 Former Part Boss Battle
-http://125.6.189.135/kcs2/resources/bgm/battle/224_6520.mp3
-#EXTINF:0,E-6 Latter Part Boss Battle
-http://125.6.189.135/kcs2/resources/bgm/battle/225_8228.mp3
-#EXTINF:0,Pray in this Night
-http://203.104.209.102/kcs2/resources/bgm/battle/226_7644.mp3
-#EXTINF:0,Sallying out for the fleet's 10th anniversary
-http://203.104.209.102/kcs2/resources/bgm/battle/227_4519.mp3
-#EXTINF:0,Main Operation Map Screen, Most of Main Operation Day Battles
-http://125.6.189.7/kcs2/resources/bgm/battle/228_4640.mp3
-#EXTINF:0,E-4 Map Screen, Most of Main Operation Night Battles, E-6 Normal Battle
-http://203.104.209.183/kcs2/resources/bgm/battle/229_3635.mp3
-#EXTINF:0,Most of Main Operation Boss Battles etc.
-http://203.104.209.134/kcs2/resources/bgm/battle/230_9613.mp3
-#EXTINF:0,E-4 Boss Battle, E-5 Boss Battle
-http://125.6.189.103/kcs2/resources/bgm/battle/231_8359.mp3
-#EXTINF:0,Extra Operation Map Screen
-http://125.6.189.71/kcs2/resources/bgm/battle/232_8438.mp3
-#EXTINF:0,E-5 Normal Battle, E-7 Map Screen
-http://125.6.189.167/kcs2/resources/bgm/battle/233_6265.mp3
-#EXTINF:0,E-6 Boss Battle, E-7 Normal Battle
-http://203.104.209.102/kcs2/resources/bgm/battle/234_4506.mp3
-#EXTINF:0,E-7 Boss Battle
-http://203.104.209.183/kcs2/resources/bgm/battle/235_5136.mp3
-#EXTINF:0,Fleet Halloween Pumpkin
-http://203.104.209.71/kcs2/resources/bgm/battle/236_7390.mp3
-#EXTINF:0,Kiyoshimo's Morning
-http://203.104.209.55/kcs2/resources/bgm/battle/237_9501.mp3
-#EXTINF:-1,Momochi and a new morning
-http://125.6.189.7/kcs2/resources/bgm/battle/238_2313.mp3
-#EXTINF:0,Home Port
-http://203.104.209.87/kcs2/resources/bgm/port/101_9163.mp3
-#EXTINF:0,ArsenalUpon Selecting Resupply
-http://125.6.189.247/kcs2/resources/bgm/port/102_2564.mp3
-#EXTINF:0,SortieAcross The Sea
-http://203.104.209.167/kcs2/resources/bgm/port/103_6973.mp3
-#EXTINF:0,Afternoon in the Naval Base
-http://203.104.209.39/kcs2/resources/bgm/port/104_1495.mp3
-#EXTINF:0,Autumn at the Naval Base
-http://125.6.189.103/kcs2/resources/bgm/port/105_4881.mp3
-#EXTINF:0,Musashi's Return
-http://125.6.189.103/kcs2/resources/bgm/port/106_6011.mp3
-#EXTINF:0,bgm_port_107
-http://125.6.189.215/kcs2/resources/bgm/port/107_1414.mp3
-#EXTINF:0,New Years at the Naval Base
-http://125.6.189.215/kcs2/resources/bgm/port/108_3749.mp3
-#EXTINF:0,bgm_port_109
-http://125.6.189.71/kcs2/resources/bgm/port/109_3792.mp3
-#EXTINF:0,Setsubun at the Naval Base
-http://203.104.209.102/kcs2/resources/bgm/port/110_3682.mp3
-#EXTINF:0,Candy-making by the Shipgirls
-http://203.104.209.71/kcs2/resources/bgm/port/111_4003.mp3
-#EXTINF:0,Hinamatsuri and the Shipgirls
-http://203.104.209.23/kcs2/resources/bgm/port/112_9005.mp3
-#EXTINF:0,bgm_port_113
-http://125.6.189.7/kcs2/resources/bgm/port/113_7252.mp3
-#EXTINF:0,Sound of Rain at the Naval Base
-http://203.104.209.183/kcs2/resources/bgm/port/114_8069.mp3
-#EXTINF:0,Rain, Sake, and Shipgirls
-http://203.104.209.102/kcs2/resources/bgm/port/115_1441.mp3
-#EXTINF:0,Shipgirls on the Beach
-http://125.6.189.103/kcs2/resources/bgm/port/116_6493.mp3
-#EXTINF:0,Cape Kaga Kai
-http://203.104.209.87/kcs2/resources/bgm/port/117_8829.mp3
-#EXTINF:0,Autumn Festival at the Naval Base
-http://203.104.209.55/kcs2/resources/bgm/port/118_3921.mp3
-#EXTINF:0,bgm_port_119
-http://125.6.189.39/kcs2/resources/bgm/port/119_5176.mp3
-#EXTINF:0,bgm_port_120
-http://125.6.189.103/kcs2/resources/bgm/port/120_6550.mp3
-#EXTINF:0,Shipgirls' and Admiral's Dining Table
-http://125.6.184.215/kcs2/resources/bgm/port/121_4470.mp3
-#EXTINF:0,bgm_port_122
-http://203.104.209.167/kcs2/resources/bgm/port/122_5626.mp3
-#EXTINF:0,Chance Meeting
-http://125.6.189.7/kcs2/resources/bgm/port/123_6555.mp3
-#EXTINF:0,Sortie in Swimsuit
-http://203.104.209.23/kcs2/resources/bgm/port/124_7185.mp3
-#EXTINF:0,bgm_port_125
-http://125.6.189.135/kcs2/resources/bgm/port/125_1378.mp3
-#EXTINF:0,Birth of the Jets
-http://203.104.209.71/kcs2/resources/bgm/port/126_4489.mp3
-#EXTINF:0,The Night When Powder Snow Falls
-http://203.104.209.39/kcs2/resources/bgm/port/127_3252.mp3
-#EXTINF:0,bgm_port_128
-http://203.104.209.71/kcs2/resources/bgm/port/128_3844.mp3
-#EXTINF:0,bgm_port_129
-http://203.104.209.55/kcs2/resources/bgm/port/129_7831.mp3
-#EXTINF:0,bgm_port_130
-http://125.6.189.215/kcs2/resources/bgm/port/130_2783.mp3
-#EXTINF:0,bgm_port_131
-http://125.6.184.215/kcs2/resources/bgm/port/131_6802.mp3
-#EXTINF:0,bgm_port_132
-http://125.6.189.135/kcs2/resources/bgm/port/132_3079.mp3
-#EXTINF:0,Marriage (tentative title)
-http://203.104.209.23/kcs2/resources/bgm/port/133_5517.mp3
-#EXTINF:0,bgm_port_134
-http://203.104.209.199/kcs2/resources/bgm/port/134_1609.mp3
-#EXTINF:0,bgm_port_135
-http://203.104.209.150/kcs2/resources/bgm/port/135_7016.mp3
-#EXTINF:0,bgm_port_136
-http://203.104.209.134/kcs2/resources/bgm/port/136_2434.mp3
-#EXTINF:0,bgm_port_137
-http://203.104.209.87/kcs2/resources/bgm/port/137_3448.mp3
-#EXTINF:0,Rain, Sake, and Ship Girls (The 2nd Night)
-http://203.104.209.183/kcs2/resources/bgm/port/138_1077.mp3
-#EXTINF:0,bgm_port_139
-http://203.104.209.39/kcs2/resources/bgm/port/139_5970.mp3
-#EXTINF:0,bgm_port_140
-http://203.104.209.134/kcs2/resources/bgm/port/140_3223.mp3
-#EXTINF:0,bgm_port_141
-http://125.6.189.167/kcs2/resources/bgm/port/141_3816.mp3
-#EXTINF:0,bgm_port_142
-http://125.6.189.103/kcs2/resources/bgm/port/142_7730.mp3
-#EXTINF:0,bgm_port_143
-http://125.6.189.247/kcs2/resources/bgm/port/143_9889.mp3
-#EXTINF:0,bgm_port_144
-http://203.104.209.39/kcs2/resources/bgm/port/144_6147.mp3
-#EXTINF:0,bgm_port_145
-http://125.6.189.71/kcs2/resources/bgm/port/145_3262.mp3
-#EXTINF:0,bgm_port_146
-http://203.104.209.150/kcs2/resources/bgm/port/146_8092.mp3
-#EXTINF:0,bgm_port_147
-http://203.104.209.150/kcs2/resources/bgm/port/147_7705.mp3
-#EXTINF:0,bgm_port_148
-http://125.6.184.215/kcs2/resources/bgm/port/148_3827.mp3
-#EXTINF:0,bgm_port_149
-http://125.6.189.7/kcs2/resources/bgm/port/149_5557.mp3
-#EXTINF:0,bgm_port_150
-http://203.104.209.150/kcs2/resources/bgm/port/150_9199.mp3
-#EXTINF:0,bgm_port_151
-http://203.104.209.23/kcs2/resources/bgm/port/151_8788.mp3
-#EXTINF:0,bgm_port_152
-http://203.104.209.167/kcs2/resources/bgm/port/152_3940.mp3
-#EXTINF:0,bgm_port_153
-http://125.6.189.39/kcs2/resources/bgm/port/153_9688.mp3
-#EXTINF:0,bgm_port_154
-http://125.6.189.39/kcs2/resources/bgm/port/154_5194.mp3
-#EXTINF:0,bgm_port_155
-http://203.104.209.183/kcs2/resources/bgm/port/155_9658.mp3
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/208_9294.mp3
 #EXTINF:-1,Main Operation Map Screen
-http://203.104.209.134/kcs2/resources/bgm/battle/239_9754.mp3
-#EXTINF:-1,1st stage Normal Battle
-http://203.104.209.71/kcs2/resources/bgm/battle/240_4108.mp3
-#EXTINF:-1,1st stage Boss Battle, E-3 normal battle
-http://203.104.209.134/kcs2/resources/bgm/battle/241_4144.mp3
-#EXTINF:-1,E-4 Boss Battle
-http://125.6.189.135/kcs2/resources/bgm/battle/242_7285.mp3
-#EXTINF:-1,Operation Tatsumaki (E-3 Boss Battle, E-4 Normal battle)
-http://203.104.209.71/kcs2/resources/bgm/battle/243_1624.mp3
-#EXTINF:-1,E-4 3rd and Final Boss Battle
-http://125.6.189.247/kcs2/resources/bgm/battle/244_2492.mp3
-#EXTINF:-1,Blue wind blowing on the sea
-http://125.6.189.103/kcs2/resources/bgm/battle/245_2044.mp3
-#EXTINF:-1,Main Operation Map Screen
-http://203.104.209.39/kcs2/resources/bgm/battle/246_7136.mp3
-#EXTINF:-1,Main Operation Normal Battle
-http://203.104.209.102/kcs2/resources/bgm/battle/247_5510.mp3
-#EXTINF:-1,Main Operation Boss Battle
-http://125.6.184.215/kcs2/resources/bgm/battle/248_8959.mp3
-#EXTINF:-1,E-3 Boss Battles
-http://203.104.209.39/kcs2/resources/bgm/battle/249_6900.mp3
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/209_9343.mp3
+#EXTINF:-1,E-1, E-2 Normal Battle, E-3 Map Screen
+http://w12p.kancolle-server.com/kcs2/resources/bgm/battle/210_2677.mp3
+#EXTINF:-1,E1, E-2 boss, E-3 Normal Battle
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/211_7816.mp3
+#EXTINF:-1,E-3 2nd Boss Battle, E-4 Bosses, E-5 Normal Battle
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/212_1771.mp3
 #EXTINF:-1,Extra Operation Map Screen
-http://125.6.189.135/kcs2/resources/bgm/battle/250_7576.mp3
-#EXTINF:0,bgm_battle_251
-http://203.104.209.150/kcs2/resources/bgm/battle/251_8902.mp3
-#EXTINF:0,bgm_battle_252
-http://203.104.209.102/kcs2/resources/bgm/battle/252_6132.mp3
-#EXTINF:0,bgm_battle_253
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/213_6574.mp3
+#EXTINF:-1,E-5 3rd and Final Boss, E-6 Normal Battle
+http://w03s.kancolle-server.com/kcs2/resources/bgm/battle/214_8534.mp3
+#EXTINF:-1,E-6 3rd Boss
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/215_2347.mp3
+#EXTINF:-1,E-6 Final Boss
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/216_7898.mp3
+#EXTINF:-1,This Moment
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/217_8510.mp3
+#EXTINF:-1,Main Operation Map Screen
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/218_6967.mp3
+#EXTINF:-1,E-1 and E-2 Normal Battle, E-3 Map Screen
+http://w14h.kancolle-server.com/kcs2/resources/bgm/battle/219_6489.mp3
+#EXTINF:-1,E1 and Main E-2 Boss Battle etc.
+http://w17k.kancolle-server.com/kcs2/resources/bgm/battle/220_6145.mp3
+#EXTINF:-1,E-3 Boss Battle etc.
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/221_3601.mp3
+#EXTINF:-1,Extra Operation Map Screen
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/222_9591.mp3
+#EXTINF:-1,E-5, E-6 Normal Battle
+http://w05o.kancolle-server.com/kcs2/resources/bgm/battle/223_1933.mp3
+#EXTINF:-1,E-5 Main Boss Battle, E-6 Former Part Boss Battle
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/224_6520.mp3
+#EXTINF:-1,E-6 Latter Part Boss Battle
+http://w10b.kancolle-server.com/kcs2/resources/bgm/battle/225_8228.mp3
+#EXTINF:-1,Pray in this Night
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/226_7644.mp3
+#EXTINF:-1,Sallying out for the fleet's 10th anniversary
+http://w19s.kancolle-server.com/kcs2/resources/bgm/battle/227_4519.mp3
+#EXTINF:-1,Main Operation Map Screen, Most of Main Operation Day Battles
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/228_4640.mp3
+#EXTINF:-1,Weigh anchor! Ukuru-class kaiboukan
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/229_3635.mp3
+#EXTINF:-1,Shield of Hachinohe
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/230_9613.mp3
+#EXTINF:-1,E-4 Boss Battle, E-5 Boss Battle
+http://w11t.kancolle-server.com/kcs2/resources/bgm/battle/231_8359.mp3
+#EXTINF:-1,Extra Operation Map Screen
+http://w15p.kancolle-server.com/kcs2/resources/bgm/battle/232_8438.mp3
+#EXTINF:-1,E-5 Normal Battle, E-7 Map Screen
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/233_6265.mp3
+#EXTINF:-1,E-6 Boss Battle, E-7 Normal Battle
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/234_4506.mp3
+#EXTINF:-1,E-7 Boss Battle
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/235_5136.mp3
+#EXTINF:-1,Fleet Halloween Pumpkin
+http://w13b.kancolle-server.com/kcs2/resources/bgm/battle/236_7390.mp3
+#EXTINF:-1,Kiyoshimo's Morning
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/237_9501.mp3
+#EXTINF:-1,Momochi and a new morning
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/238_2313.mp3
+#EXTINF:-1,Main Operation Map Screen
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/239_9754.mp3
+#EXTINF:-1,1st stage Normal Battle
+http://w04m.kancolle-server.com/kcs2/resources/bgm/battle/240_4108.mp3
+#EXTINF:-1,1st and 2nd stage Boss Battle, E-3 normal battle E-4 normal battle etc.
+http://w18i.kancolle-server.com/kcs2/resources/bgm/battle/241_4144.mp3
+#EXTINF:-1,E-4 Normal Night Battle
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/242_7285.mp3
+#EXTINF:-1,Operation Tatsumaki
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/243_1624.mp3
+#EXTINF:-1,Roar of Z Decisive Battle Fleet
+http://w09s.kancolle-server.com/kcs2/resources/bgm/battle/244_2492.mp3
+#EXTINF:-1,Blue wind blowing on the sea
+http://w02k.kancolle-server.com/kcs2/resources/bgm/battle/245_2044.mp3
+#EXTINF:-1,Main Operation Map Screen
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/246_7136.mp3
+#EXTINF:-1,Main Operation Normal Battle
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/247_5510.mp3
+#EXTINF:-1,Main Operation Boss Battle
+http://w07l.kancolle-server.com/kcs2/resources/bgm/battle/248_8959.mp3
+#EXTINF:-1,E-3 Boss Battles
+http://w06t.kancolle-server.com/kcs2/resources/bgm/battle/249_6900.mp3
+#EXTINF:-1,E-4 Map Screen
+http://w08r.kancolle-server.com/kcs2/resources/bgm/battle/250_7576.mp3
+#EXTINF:-1,E-4 Normal Battle, E-5 Map Screen
+http://w16s.kancolle-server.com/kcs2/resources/bgm/battle/251_8902.mp3
+#EXTINF:-1,A Mortal Combat in Southern Part of the Pacific
+http://w01y.kancolle-server.com/kcs2/resources/bgm/battle/252_6132.mp3
+#EXTINF:-1,E-5 Boss Battle
+http://w20h.kancolle-server.com/kcs2/resources/bgm/battle/253_5956.mp3
+#EXTINF:-1,Home Port
+http://w17k.kancolle-server.com/kcs2/resources/bgm/port/101_9163.mp3
+#EXTINF:-1,ArsenalUpon Selecting Resupply
+http://w20h.kancolle-server.com/kcs2/resources/bgm/port/102_2564.mp3
+#EXTINF:-1,SortieAcross The Sea
+http://w18i.kancolle-server.com/kcs2/resources/bgm/port/103_6973.mp3
+#EXTINF:-1,Afternoon in the Naval Base
+http://w05o.kancolle-server.com/kcs2/resources/bgm/port/104_1495.mp3
+#EXTINF:-1,Autumn at the Naval Base
+http://w16s.kancolle-server.com/kcs2/resources/bgm/port/105_4881.mp3
+#EXTINF:-1,Musashi's Return
+http://w20h.kancolle-server.com/kcs2/resources/bgm/port/106_6011.mp3
+#EXTINF:0,bgm_port_107
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/107_1414.mp3
+#EXTINF:-1,New Years at the Naval Base
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/108_3749.mp3
+#EXTINF:0,bgm_port_109
+http://w13b.kancolle-server.com/kcs2/resources/bgm/port/109_3792.mp3
+#EXTINF:-1,Setsubun at the Naval Base
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/110_3682.mp3
+#EXTINF:-1,Candy-making by the Shipgirls
+http://w05o.kancolle-server.com/kcs2/resources/bgm/port/111_4003.mp3
+#EXTINF:-1,Hinamatsuri and the Shipgirls
+http://w09s.kancolle-server.com/kcs2/resources/bgm/port/112_9005.mp3
+#EXTINF:0,bgm_port_113
+http://w03s.kancolle-server.com/kcs2/resources/bgm/port/113_7252.mp3
+#EXTINF:-1,Sound of Rain at the Naval Base
+http://w15p.kancolle-server.com/kcs2/resources/bgm/port/114_8069.mp3
+#EXTINF:-1,Rain, Sake, and Shipgirls
+http://w03s.kancolle-server.com/kcs2/resources/bgm/port/115_1441.mp3
+#EXTINF:-1,Shipgirls on the Beach
+http://w16s.kancolle-server.com/kcs2/resources/bgm/port/116_6493.mp3
+#EXTINF:-1,Cape Kaga Kai
+http://w18i.kancolle-server.com/kcs2/resources/bgm/port/117_8829.mp3
+#EXTINF:-1,Autumn Festival at the Naval Base
+http://w06t.kancolle-server.com/kcs2/resources/bgm/port/118_3921.mp3
+#EXTINF:0,bgm_port_119
+http://w16s.kancolle-server.com/kcs2/resources/bgm/port/119_5176.mp3
+#EXTINF:0,bgm_port_120
+http://w05o.kancolle-server.com/kcs2/resources/bgm/port/120_6550.mp3
+#EXTINF:-1,Shipgirls' and Admiral's Dining Table
+http://w12p.kancolle-server.com/kcs2/resources/bgm/port/121_4470.mp3
+#EXTINF:0,bgm_port_122
+http://w15p.kancolle-server.com/kcs2/resources/bgm/port/122_5626.mp3
+#EXTINF:-1,Chance Meeting
+http://w07l.kancolle-server.com/kcs2/resources/bgm/port/123_6555.mp3
+#EXTINF:-1,Sortie in Swimsuit
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/124_7185.mp3
+#EXTINF:0,bgm_port_125
+http://w09s.kancolle-server.com/kcs2/resources/bgm/port/125_1378.mp3
+#EXTINF:-1,Birth of the Jets
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/126_4489.mp3
+#EXTINF:-1,The Night When Powder Snow Falls
+http://w19s.kancolle-server.com/kcs2/resources/bgm/port/127_3252.mp3
+#EXTINF:0,bgm_port_128
+http://w17k.kancolle-server.com/kcs2/resources/bgm/port/128_3844.mp3
+#EXTINF:0,bgm_port_129
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/129_7831.mp3
+#EXTINF:0,bgm_port_130
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/130_2783.mp3
+#EXTINF:0,bgm_port_131
+http://w04m.kancolle-server.com/kcs2/resources/bgm/port/131_6802.mp3
+#EXTINF:0,bgm_port_132
+http://w14h.kancolle-server.com/kcs2/resources/bgm/port/132_3079.mp3
+#EXTINF:-1,Marriage (tentative title)
+http://w11t.kancolle-server.com/kcs2/resources/bgm/port/133_5517.mp3
+#EXTINF:0,bgm_port_134
+http://w14h.kancolle-server.com/kcs2/resources/bgm/port/134_1609.mp3
+#EXTINF:0,bgm_port_135
+http://w12p.kancolle-server.com/kcs2/resources/bgm/port/135_7016.mp3
+#EXTINF:0,bgm_port_136
+http://w14h.kancolle-server.com/kcs2/resources/bgm/port/136_2434.mp3
+#EXTINF:0,bgm_port_137
+http://w10b.kancolle-server.com/kcs2/resources/bgm/port/137_3448.mp3
+#EXTINF:-1,Rain, Sake, and Ship Girls (The 2nd Night)
+http://w05o.kancolle-server.com/kcs2/resources/bgm/port/138_1077.mp3
+#EXTINF:0,bgm_port_139
+http://w01y.kancolle-server.com/kcs2/resources/bgm/port/139_5970.mp3
+#EXTINF:0,bgm_port_140
+http://w09s.kancolle-server.com/kcs2/resources/bgm/port/140_3223.mp3
+#EXTINF:0,bgm_port_141
+http://w09s.kancolle-server.com/kcs2/resources/bgm/port/141_3816.mp3
+#EXTINF:0,bgm_port_142
+http://w10b.kancolle-server.com/kcs2/resources/bgm/port/142_7730.mp3
+#EXTINF:0,bgm_port_143
+http://w02k.kancolle-server.com/kcs2/resources/bgm/port/143_9889.mp3
+#EXTINF:0,bgm_port_144
+http://w14h.kancolle-server.com/kcs2/resources/bgm/port/144_6147.mp3
+#EXTINF:0,bgm_port_145
+http://w17k.kancolle-server.com/kcs2/resources/bgm/port/145_3262.mp3
+#EXTINF:0,bgm_port_146
+http://w15p.kancolle-server.com/kcs2/resources/bgm/port/146_8092.mp3
+#EXTINF:0,bgm_port_147
+http://w10b.kancolle-server.com/kcs2/resources/bgm/port/147_7705.mp3
+#EXTINF:0,bgm_port_148
+http://w18i.kancolle-server.com/kcs2/resources/bgm/port/148_3827.mp3
+#EXTINF:0,bgm_port_149
+http://w11t.kancolle-server.com/kcs2/resources/bgm/port/149_5557.mp3
+#EXTINF:0,bgm_port_150
+http://w11t.kancolle-server.com/kcs2/resources/bgm/port/150_9199.mp3
+#EXTINF:0,bgm_port_151
+http://w16s.kancolle-server.com/kcs2/resources/bgm/port/151_8788.mp3
+#EXTINF:0,bgm_port_152
+http://w17k.kancolle-server.com/kcs2/resources/bgm/port/152_3940.mp3
+#EXTINF:0,bgm_port_153
+http://w06t.kancolle-server.com/kcs2/resources/bgm/port/153_9688.mp3
+#EXTINF:0,bgm_port_154
+http://w11t.kancolle-server.com/kcs2/resources/bgm/port/154_5194.mp3
+#EXTINF:0,bgm_port_155
+http://w19s.kancolle-server.com/kcs2/resources/bgm/port/155_9658.mp3
+#EXTINF:0,bgm_port_156
+http://w11t.kancolle-server.com/kcs2/resources/bgm/port/156_7593.mp3
