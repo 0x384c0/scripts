@@ -4,7 +4,7 @@
 * [Google Chrome](https://www.google.com/chrome/)
 
 ## Usage
-* run `./generate_kcs2_bgm_battle_playlist.sh`
+* run `./generate_kcs2_bgm_playlist.sh`
 * in Chrome open [https://en.kancollewiki.net/Music](https://en.kancollewiki.net/Music)
 * open Dev console, paste and run code from `extract_title_from_wiki.js`
 * save `output.csv` to current directory
