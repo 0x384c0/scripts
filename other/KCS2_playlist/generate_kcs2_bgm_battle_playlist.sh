@@ -47,26 +47,27 @@ function get_bgm_battle_url_from_id {
 
 # Servers
 declare -a kcs2_servers=(
-    "203.104.209.71"
-    "203.104.209.87"
-    "125.6.184.215"
-    "203.104.209.183"
-    "203.104.209.150"
-    "203.104.209.134"
-    "203.104.209.167"
-    "203.104.209.199"
-    "125.6.189.7"
-    "125.6.189.39"
-    "125.6.189.71"
-    "125.6.189.103"
-    "125.6.189.135"
-    "125.6.189.167"
-    "125.6.189.215"
-    "125.6.189.247"
-    "203.104.209.23"
-    "203.104.209.39"
-    "203.104.209.55"
-    "203.104.209.102"
+    w02k.kancolle-server.com
+    w01y.kancolle-server.com
+    w02k.kancolle-server.com
+    w03s.kancolle-server.com
+    w04m.kancolle-server.com
+    w05o.kancolle-server.com
+    w06t.kancolle-server.com
+    w07l.kancolle-server.com
+    w08r.kancolle-server.com
+    w09s.kancolle-server.com
+    w10b.kancolle-server.com
+    w11t.kancolle-server.com
+    w12p.kancolle-server.com
+    w13b.kancolle-server.com
+    w14h.kancolle-server.com
+    w15p.kancolle-server.com
+    w16s.kancolle-server.com
+    w17k.kancolle-server.com
+    w18i.kancolle-server.com
+    w19s.kancolle-server.com
+    w20h.kancolle-server.com
 )
 
 # get_bgm_battle_url_from_id "203.104.209.71" "battle" 1
@@ -144,8 +145,12 @@ get_last_id() {
     local last_id=$(grep -E "/kcs2/resources/bgm/$type/.*\.mp3" "$output_file" | grep -oE "${type}/([0-9]+)_.*\.mp3" | awk -F'/' '{print $2}' | awk -F'_' '{print $1}' | tail -n 1)
     last_id=$((last_id + 1));
 
-    # If no song_id is found, return the default id
-    echo "${last_id:-$default_id}"
+    # If last_id is less than or equal to 1, return the default_id
+    if [[ -z "$last_id" || "$last_id" -le 1 ]]; then
+        echo "$default_id"
+    else
+        echo "$last_id"
+    fi
 }
 
 # Main
