@@ -5,12 +5,8 @@ csv_file="output.csv"
 m3u8_file="kcs2_bgm_playlist.m3u"
 output_file="new_playlist.m3u8"
 
-declare -A bgm_mapping
-
-# Read the CSV file and populate the mapping
-while IFS=, read -r key value; do
-    bgm_mapping["$key"]="$value"
-done < "$csv_file"
+# Read the CSV file and process the mapping using awk
+bgm_mapping=$(awk -F, '{print $1 "|" $2}' "$csv_file")
 
 # Process the m3u8 file
 while IFS= read -r line; do
@@ -19,8 +15,9 @@ while IFS= read -r line; do
         key=$(echo "$line" | awk -F, '{print $2}')
         
         # Replace the key with the corresponding value from the mapping
-        if [[ -n "${bgm_mapping[$key]}" ]]; then
-            line="#EXTINF:0,${bgm_mapping[$key]}"
+        value=$(echo "$bgm_mapping" | awk -v k="$key" -F'|' '$1 == k {print $2}')
+        if [[ -n "$value" ]]; then
+            line="#EXTINF:0,$value"
         fi
     fi
     echo "$line"
