@@ -26,7 +26,7 @@ fi
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
-[[ -f /Users/andrew/.dart-cli-completion/zsh-config.zsh ]] && . /Users/andrew/.dart-cli-completion/zsh-config.zsh || true
+[[ -f ~/.dart-cli-completion/zsh-config.zsh ]] && . ~/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
 # Custom binaries
