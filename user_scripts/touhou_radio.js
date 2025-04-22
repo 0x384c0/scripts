@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Touhou Radio Imitator
 // @namespace    http://tampermonkey.net/
-// @version      0.3.1
+// @version      0.3.2
 // @description  Plays random song from http://151.80.40.155/
 // @author       0x384c0
 // @match        http://151.80.40.155/
@@ -161,15 +161,38 @@
         }
 
         generateAndDownloadM3U8(urls, filename) {
-            // Create the M3U8 content by joining the URLs with appropriate M3U8 format
-            const m3u8Content = "#EXTM3U\n" + urls.map(url => `#EXTINF:0,Video\n${url}`).join("\n")
-            const blob = new Blob([m3u8Content], { type: "application/vnd.apple.mpegurl" })
-            const url = URL.createObjectURL(blob)
-            const a = document.createElement("a")
-            a.href = url
-            a.download = filename
-            a.click()
-            URL.revokeObjectURL(url)
+            // Create the M3U8 content with metadata
+            const m3u8Content = "#EXTM3U\n" + urls.map(url => {
+                // Extract metadata from the URL (e.g., artist, album, title)
+                const metadata = this.extractMetadataFromUrl(url);
+                const { title, artist, album } = metadata;
+
+                // Format the EXTINF line with metadata
+                return `#EXTINF:0,${artist} - ${title} [${album}]\n${url}`;
+            }).join("\n");
+
+            const blob = new Blob([m3u8Content], { type: "application/vnd.apple.mpegurl" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        extractMetadataFromUrl(url) {
+            // Example parsing logic for extracting metadata from the URL
+            const decodedUrl = decodeURIComponent(url);
+            const parts = decodedUrl.split("/");
+            const title = parts[parts.length - 1].replace(".opus", "");
+            const album = parts[parts.length - 2];
+            const artist = parts[parts.length - 3];
+
+            return {
+                title: title && title.trim() ? title : "Unknown Title",
+                artist: artist && artist.trim() ? artist : "Unknown Artist",
+                album: album && album.trim() ? album : "Unknown Album"
+            };
         }
 
         getUrls() {
