@@ -51,9 +51,17 @@ set ACCELERATE="%VENV_DIR%\Scripts\accelerate.exe"
 if EXIST %ACCELERATE% goto :accelerate_launch
 
 :launch
-@REM %PYTHON% -m pip install --upgrade torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
+
+@REM %PYTHON% -m pip install --upgrade pip
+@REM %PYTHON% -m pip cache purge
+@REM %PYTHON% -m pip uninstall torch torchvision torchaudio
+@REM %PYTHON% -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu128
 @REM %PYTHON% -m pip install --upgrade -r requirements.txt
-%PYTHON% main.py %*
+
+@REM https://github.com/Gourieff/ComfyUI-ReActor/issues/73
+@REM pip install -U ultralytics
+
+%PYTHON% main.py --preview-method auto  --lowvram --disable-smart-memory %*
 if EXIST tmp/restart goto :skip_venv
 pause
 exit /b
