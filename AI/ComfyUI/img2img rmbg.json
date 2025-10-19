@@ -1,0 +1,296 @@
+{
+  "id": "ab5434ed-2512-480d-9273-640ddd90ccc7",
+  "revision": 0,
+  "last_node_id": 29,
+  "last_link_id": 25,
+  "nodes": [
+    {
+      "id": 27,
+      "type": "easy imageRemBg",
+      "pos": [
+        197.13368225097656,
+        304.73992919921875
+      ],
+      "size": [
+        270,
+        150
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.4",
+        "Node name for S&R": "easy imageRemBg",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "Inspyrenet",
+        "Preview",
+        "ComfyUI",
+        false,
+        "none",
+        false
+      ]
+    },
+    {
+      "id": 25,
+      "type": "easy imageRemBg",
+      "pos": [
+        578.0506591796875,
+        423.1932678222656
+      ],
+      "size": [
+        270,
+        338
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 21
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.4",
+        "Node name for S&R": "easy imageRemBg",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "RMBG-1.4",
+        "Preview",
+        "ComfyUI",
+        false,
+        "none",
+        false
+      ]
+    },
+    {
+      "id": 28,
+      "type": "easy imageRemBg",
+      "pos": [
+        520.6539306640625,
+        -286.7301330566406
+      ],
+      "size": [
+        270,
+        150
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            25
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.4",
+        "Node name for S&R": "easy imageRemBg",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "BEN2",
+        "Preview",
+        "ComfyUI",
+        false,
+        "none",
+        false
+      ]
+    },
+    {
+      "id": 29,
+      "type": "SaveImage",
+      "pos": [
+        876.6537475585938,
+        -282.97479248046875
+      ],
+      "size": [
+        270,
+        270
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 25
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.65",
+        "Node name for S&R": "SaveImage",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "mounted/ComfyUI"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Load image with metadata [Crystools]",
+      "pos": [
+        92.48031616210938,
+        -280.5616455078125
+      ],
+      "size": [
+        278.5025329589844,
+        354
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            21,
+            23,
+            24
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "prompt",
+          "type": "JSON",
+          "links": null
+        },
+        {
+          "name": "Metadata RAW",
+          "type": "METADATA_RAW",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-crystools",
+        "ver": "1.27.3",
+        "Node name for S&R": "Load image with metadata [Crystools]",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "mounted/me/IMG_2688.png",
+        "image"
+      ]
+    }
+  ],
+  "links": [
+    [
+      21,
+      20,
+      0,
+      25,
+      0,
+      "IMAGE"
+    ],
+    [
+      23,
+      20,
+      0,
+      27,
+      0,
+      "IMAGE"
+    ],
+    [
+      24,
+      20,
+      0,
+      28,
+      0,
+      "IMAGE"
+    ],
+    [
+      25,
+      28,
+      0,
+      29,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.635079908265585,
+      "offset": [
+        -66.23381299226591,
+        845.3595022867403
+      ]
+    },
+    "node_versions": {
+      "BEN2_ComfyUI": "48e27c1bb52cfbdaefd56abb404b9bf17763d1d4",
+      "ComfyUI-Easy-Use": "52a8e7faf37753b840e863dd4a6b245ddaf87761",
+      "comfy-core": "0.3.14"
+    },
+    "ue_links": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true,
+    "links_added_by_ue": [],
+    "frontendVersion": "1.20.5"
+  },
+  "version": 0.4
+}
