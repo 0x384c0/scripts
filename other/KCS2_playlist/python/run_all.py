@@ -21,8 +21,6 @@ import remove_vocals_from_playlist as remove_mod
 
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT_DIR = ROOT / "output"
-OUTPUT_DIR.mkdir(exist_ok=True)
 
 
 def _unwrap_system_exit(exc: SystemExit) -> int:
@@ -85,12 +83,17 @@ def run_remove_vocals(m3u: Path) -> int:
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser()
-    p.add_argument("--m3u", default=str(OUTPUT_DIR / "kcs2_bgm_playlist.m3u"), help="Output playlist path")
-    p.add_argument("--csv", default=str(OUTPUT_DIR / "output.csv"), help="Titles CSV path")
+    p.add_argument("--output", required=True, help="Output folder path (required)")
+    p.add_argument("--m3u", default=None, help="Output playlist path (default: <output>/kcs2_bgm_playlist.m3u)")
+    p.add_argument("--csv", default=None, help="Titles CSV path (default: <output>/music_titles.csv)")
     args = p.parse_args(argv)
 
-    m3u = Path(args.m3u)
-    csv = Path(args.csv)
+    # output is required; use provided path
+    output_dir = Path(args.output)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    m3u = Path(args.m3u) if args.m3u else output_dir / "kcs2_bgm_playlist.m3u"
+    csv = Path(args.csv) if args.csv else output_dir / "music_titles.csv"
 
     print("1) generate playlist")
     rc = run_generate(m3u)
