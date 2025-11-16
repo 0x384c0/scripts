@@ -134,8 +134,20 @@ def main(argv: List[str] | None = None) -> int:
     out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
 
-    servers = [s for s in KCS2_SERVERS if check_server(s)]
-    if not servers:
+    # Check servers one by one and print progress: how many working out of total
+    total = len(KCS2_SERVERS)
+    servers: List[str] = []
+    for idx, s in enumerate(KCS2_SERVERS, start=1):
+        ok = check_server(s)
+        if ok:
+            servers.append(s)
+        # Print running progress after each check
+        print(f"Checking servers: {len(servers)}/{total} working")
+
+    # Summary
+    if servers:
+        print(f"Found {len(servers)} working servers out of {total}.")
+    else:
         print("No working servers detected; using default list (may fail).")
         servers = KCS2_SERVERS
 
