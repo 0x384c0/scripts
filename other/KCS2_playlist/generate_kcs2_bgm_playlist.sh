@@ -162,7 +162,11 @@ get_last_id() {
 }
 
 # Main
-output_file="kcs2_bgm_playlist.m3u"
+output_file="$1"
+
+# Ensure output directory exists
+mkdir -p "$(dirname "$output_file")"
+
 default_battle_id=1
 default_port_id=85
 

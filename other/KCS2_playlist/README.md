@@ -4,14 +4,15 @@
 * [Google Chrome](https://www.google.com/chrome/)
 
 ## Usage
-* `python -m pip install -r requirements.txt`
-* `./generate_kcs2_bgm_playlist.sh`
-* `python .\fetch_titles.py`
-* `./set_titles_to_playlist.sh`
-* output will be `kcs2_bgm_playlist.m3u`
+```
+python -m pip install -r requirements.txt
+./generate_kcs2_bgm_playlist.sh "output/kcs2_bgm_playlist.m3u"
+python .\fetch_titles.py --output output/output.csv
+./set_titles_to_playlist.sh --csv output/output.csv --m3u8 output/kcs2_bgm_playlist.m3u
+python remove_vocals_from_playlist.py kcs_2_vocals.txt output/kcs2_bgm_playlist.m3u output/kcs2_bgm_playlist_no_vocals.m3u
+```
 
 ## Todo
 * rewrite all to Python
 * create GitHub Action to automate playlist generation
-* use [selenium](https://www.selenium.dev/) to get titles from wiki
 * publish generated playlist as release attachment
