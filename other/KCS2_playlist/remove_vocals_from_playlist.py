@@ -22,10 +22,16 @@ def remove_songs_from_playlist(playlist_path, vocals_path, output_path):
     with open(output_path, encoding="utf8", mode='w') as output_file:
         output_file.writelines(result)
 
-# Paths to the files
-txt_file = "kcs_2_vocals.txt"
-m3u8_file = "kcs2_bgm_playlist.m3u"
-output_file = "kcs2_bgm_playlist_no_vocal.m3u"
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(
+        description="Remove songs listed in a text file from an m3u playlist.",
+        epilog="Example: python remove_vocals_from_playlist.py kcs_2_vocals.txt kcs2_bgm_playlist.m3u kcs2_bgm_playlist_no_vocal.m3u"
+    )
+    parser.add_argument("vocals_txt", help="Path to vocals TXT file (one entry per line)")
+    parser.add_argument("playlist_m3u", help="Path to m3u playlist file to filter")
+    parser.add_argument("output_m3u", help="Path for the resulting filtered playlist")
+    args = parser.parse_args()
 
-# Remove songs from the playlist and create the updated playlist
-remove_songs_from_playlist(m3u8_file, txt_file, output_file)
+    remove_songs_from_playlist(args.playlist_m3u, args.vocals_txt, args.output_m3u)
+    print(f"Filtered playlist written to: {args.output_m3u}")
