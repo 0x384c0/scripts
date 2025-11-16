@@ -16,6 +16,9 @@ declare -a resource_magic=(
     6201 5999 5339 4431 2911 4435 3611 4423 9517 3243
 )
 
+USER_AGENT="Mozilla/5.0"
+PROTOCOL="https://"
+
 function magic_code {
     local r="$1"
     local seed="$2"
@@ -42,7 +45,7 @@ function get_bgm_battle_url_from_id {
     resource_id=$3
     resource_code=$(magic_code $resource_id "bgm_$type")
     resource_id=$(printf "%03d" "$resource_id")
-    echo "http://$host/kcs2/resources/bgm/$type/$resource_id""_""$resource_code.mp3"
+    echo "${PROTOCOL}${host}/kcs2/resources/bgm/$type/${resource_id}_${resource_code}.mp3"
 }
 
 # Servers
@@ -72,10 +75,15 @@ declare -a kcs2_servers=(
 
 # get_bgm_battle_url_from_id "203.104.209.71" "battle" 1
 
+function get_response_code {
+    local url="$1"
+    curl -s -I -H "user-agent: $USER_AGENT" "$url" | head -n 1 | awk '{print $2}'
+}
+
 function check_server {
     local server="$1"
     local url=$(get_bgm_battle_url_from_id "$server" "battle" 1)
-    local response_code=$(curl -s -I "$url" | head -n 1 | awk '{print $2}')
+    local response_code=$(get_response_code "$url")
 
     # Check if the response code is in the 2xx range
     if [[ "$response_code" =~ ^[1-3][0-9][0-9]$ ]]; then
@@ -114,7 +122,7 @@ generate_m3u8_playlist() {
         # Get the BGM battle URL using the function
         local bgm_url=$(get_bgm_battle_url_from_id "$random_server" "$type" "$resource_id")
 
-        local response_code=$(curl -s -I "$bgm_url" | head -n 1 | awk '{print $2}')
+        local response_code=$(get_response_code "$bgm_url")
 
         if [[ "$response_code" =~ ^[1-3][0-9][0-9]$ ]]; then
             echo "Url $bgm_url is working. Code: $response_code"
