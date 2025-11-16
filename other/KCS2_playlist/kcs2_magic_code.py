@@ -20,6 +20,12 @@ def magic_code(r, seed):
 
 res_id = 1
 result = magic_code(res_id, "bgm_battle")
+ 
+def _self_test() -> None:
+    """Run a small self-test when executed as a script."""
+    print("Sample url http://203.104.209.87/kcs2/resources/bgm/battle/001_6601.mp3")
+    print(f'For {res_id} expected code 6601. Got code {result}')
 
-print("Sample url http://203.104.209.87/kcs2/resources/bgm/battle/001_6601.mp3")
-print(f'For {res_id} expected code 6601. Got code {result}' )
+
+if __name__ == "__main__":
+    _self_test()
