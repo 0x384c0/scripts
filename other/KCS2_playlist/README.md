@@ -6,10 +6,17 @@
 ## Usage
 ```
 python -m pip install -r requirements.txt
-./generate_kcs2_bgm_playlist.sh "output/kcs2_bgm_playlist.m3u"
-python .\fetch_titles.py --output output/output.csv
-./set_titles_to_playlist.sh --csv output/output.csv --m3u8 output/kcs2_bgm_playlist.m3u
+# Generate playlist (creates output/kcs2_bgm_playlist.m3u)
+python generate_kcs2_bgm_playlist.py output/kcs2_bgm_playlist.m3u
+# Fetch titles CSV (requires Chrome + chromedriver)
+python fetch_titles.py --output output/output.csv
+# Apply titles to playlist
+python set_titles_to_playlist.py --csv output/output.csv --m3u8 output/kcs2_bgm_playlist.m3u
+# Remove vocals variant
 python remove_vocals_from_playlist.py kcs_2_vocals.txt output/kcs2_bgm_playlist.m3u output/kcs2_bgm_playlist_no_vocals.m3u
+
+# Or run everything in sequence with the convenience runner:
+python run_all.py
 ```
 
 ## Todo
