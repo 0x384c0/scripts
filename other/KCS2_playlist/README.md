@@ -3,7 +3,7 @@
 * [Google Chrome](https://www.google.com/chrome/)
 
 ## Usage
-* `python python/run_all.py`
+* `python python/run_all.py --output .\output\y`
 * output saved in to [output](./output/) folder
 
 ## Todo
