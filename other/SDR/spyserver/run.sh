@@ -1,0 +1,1 @@
+sudo ./build/spyserver ./spyserver.config
