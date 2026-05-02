@@ -1,4 +1,3 @@
-#!/bin/bash
 shopt -s nullglob
 set -e
 mkdir -p trash
