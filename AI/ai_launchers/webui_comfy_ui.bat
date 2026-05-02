@@ -52,22 +52,17 @@ if EXIST %ACCELERATE% goto :accelerate_launch
 
 :launch
 
-@REM %PYTHON% -m pip install --upgrade pip
-@REM %PYTHON% -m pip cache purge
+%PYTHON% -m pip install --upgrade pip
+%PYTHON% -m pip cache purge
 @REM https://github.com/Comfy-Org/ComfyUI#manual-install-windows-linux
-@REM %PYTHON% -m pip install --upgrade -r requirements.txt
-@REM %PYTHON% -m pip uninstall -y torch torchvision torchaudio
-@REM %PYTHON% -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu130
+%PYTHON% -m pip install --upgrade -r requirements.txt
+%PYTHON% -m pip uninstall -y torch torchvision torchaudio
+%PYTHON% -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu130
 
-@REM SageAttention for 2080ti, the add  --use-sage-attention
-@REM TODO: fix ERROR: triton_windows-3.2.0-cp39-cp39-win_amd64.whl is not a supported wheel on this platform.
-@REM %PYTHON% -m pip install "triton-windows>=3.2,<3.3" 
-@REM %PYTHON% -m pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post4/sageattention-2.2.0+cu130torch2.9.0andhigher.post4-cp39-abi3-win_amd64.whl
-
-@REM https://github.com/Gourieff/ComfyUI-ReActor/issues/73
+@REM @REM https://github.com/Gourieff/ComfyUI-ReActor/issues/73
 @REM %PYTHON% -m pip install -U ultralytics
 
-%PYTHON% main.py --preview-method auto  --lowvram --disable-smart-memory %*
+%PYTHON% main.py --preview-method auto --lowvram --disable-smart-memory --use-pytorch-cross-attention %*
 if EXIST tmp/restart goto :skip_venv
 pause
 exit /b
