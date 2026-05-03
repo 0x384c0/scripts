@@ -59,6 +59,9 @@ if EXIST %ACCELERATE% goto :accelerate_launch
 %PYTHON% -m pip uninstall -y torch torchvision torchaudio
 %PYTHON% -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu130
 
+@REM fix easy imageRemBg, mode BEN
+%PYTHON% -m pip install -U timm
+
 @REM @REM https://github.com/Gourieff/ComfyUI-ReActor/issues/73
 @REM %PYTHON% -m pip install -U ultralytics
 
