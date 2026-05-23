@@ -1,0 +1,14 @@
+# Exclude heavy ComfyUI subdirs from the build context.
+# requirements.txt is intentionally NOT excluded so the Dockerfile
+# can use it when ComfyUI is already cloned locally.
+
+ComfyUI/venv/
+ComfyUI/models/
+ComfyUI/input/
+ComfyUI/output/
+ComfyUI/.git/
+ComfyUI/__pycache__/
+ComfyUI/**/__pycache__/
+ComfyUI/*.log
+ComfyUI/tmp/
+training/

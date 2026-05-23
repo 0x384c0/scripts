@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"F:\\\\home\\\\AI\\\\SD\\\\docker\")"
+    ]
+  }
+}
