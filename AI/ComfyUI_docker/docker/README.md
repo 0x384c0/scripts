@@ -69,12 +69,27 @@ docker compose restart
 
 ## Extra startup flags
 
-Override the default command in `docker-compose.yml`:
+Edit the `command:` list in `docker-compose.yml` to add or remove flags:
 ```yaml
-command: ["python", "main.py", "--listen", "0.0.0.0", "--port", "8188", "--force-fp16"]
+command:
+  - python
+  - main.py
+  - --listen
+  - "0.0.0.0"
+  - --port
+  - "8188"
+  - --preview-method
+  - auto
+  - --lowvram
+  - --disable-smart-memory
+  - --use-pytorch-cross-attention
 ```
 
 Useful flags:
+- `--lowvram` — aggressive VRAM offloading, slower but fits on small GPUs
+- `--disable-smart-memory` — always offload models when not in use
+- `--use-pytorch-cross-attention` — pure PyTorch attention, no extra deps
+- `--preview-method auto` — enables live generation previews
 - `--force-fp16` — halves VRAM use, small quality tradeoff
 - `--cpu` — run without GPU (slow, for debugging)
 - `--cuda-device 1` — pick a specific GPU if you have multiple
