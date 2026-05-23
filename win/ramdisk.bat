@@ -1,4 +1,4 @@
-imdisk -a -s 10G  -m X: -p "/fs:ntfs /q /y"
+imdisk -a -s 10G  -m R: -p "/fs:ntfs /q /y"
 pause
-imdisk -d -m X:
+imdisk -d -m R:
 pause
