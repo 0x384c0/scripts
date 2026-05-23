@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y software-properties-common \
     python3.11-venv \
     wget \
     git \
+    ffmpeg \
     libgl1-mesa-glx \
     libglib2.0-0 \
     libgomp1 \
