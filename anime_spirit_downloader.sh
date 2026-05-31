@@ -67,8 +67,8 @@ function read_from_fifo {
 				DOMAIN="youtube"
 			fi
 
-			if [ $DOMAIN == "nil" ]; then
-				warning "UNCNOWN DOMAIN: $line"
+			if [ $DOMAIN == "null" ]; then
+				warning "UNKNOWN DOMAIN: $line"
 			fi
 
 			echo $TYPE 		>> $BATCH_FILE
@@ -82,7 +82,7 @@ function read_from_fifo {
 				TYPE="subtitles"
 			fi
 
-			if [ $TYPE == "nil" ]; then
+			if [ $TYPE == "null" ]; then
 				error "UNKNOWN TYPE: $line"
 			fi
 		fi
