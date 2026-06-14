@@ -1,0 +1,8 @@
+services:
+  comfyui:
+    volumes:
+      - G:\AI\comfy\input:/mnt/comfy/input
+      - G:\AI\comfy\output:/mnt/comfy/output
+    environment:
+      - COMFYUI_INPUT_DIR=/mnt/comfy/input
+      - COMFYUI_OUTPUT_DIR=/mnt/comfy/output

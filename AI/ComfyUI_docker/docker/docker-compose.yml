@@ -9,6 +9,7 @@ services:
       - "8188:8188"
     volumes:
       - ../ComfyUI:/app
+      - ./venv:/venv
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility
