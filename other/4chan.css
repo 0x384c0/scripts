@@ -1,0 +1,45 @@
+body{background:#111!important;color:#ddd!important}
+
+a{color:#6af!important}
+a:visited{color:#a6f!important}
+
+/* quote links and post number links — brighter and readable */
+.quoteLink, .quotelink, .pageJump a{
+    color:#7fbfff!important;   /* soft bright blue */
+    text-decoration:underline!important;
+}
+
+/* dead links — visible but clearly different */
+.deadlink{
+    color:#888!important;
+    text-decoration:underline!important;
+}
+
+/* hover state for clarity */
+.quoteLink:hover, .quotelink:hover, .pageJump a:hover{
+    color:#a8d4ff!important;
+}
+
+.postInfo,.quote,.postername,.postertrip,.subject{color:#ccc!important}
+
+.reply{
+    background:#1a1a1a!important;
+    border:1px solid #333!important
+}
+
+.replyhl{
+    background:#222!important;
+    border:1px solid #555!important
+}
+
+blockquote{color:#bbb!important}
+
+hr{border-color:#333!important}
+
+.boardTitle{color:#eee!important}
+
+.navLinks{background:#111!important}
+
+.pagelist,.cataloglink,.backlink,.postNum{
+    color:#aaa!important;   /* slightly brighter than before */
+}
