@@ -1,9 +1,0 @@
-#!/bin/bash
-function info {
-	echo "$(tput setaf 2; tput bold;)INFO: $1$(tput sgr0)"
-}
-
-
-STREAMER=`basename "$0"`
-info "Starting twitch: $STREAMER"
-streamlink --twitch-disable-ads "twitch.tv/$STREAMER" best
