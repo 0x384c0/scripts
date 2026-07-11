@@ -110,6 +110,51 @@ def generate_m3u8_playlist(
     return current_id
 
 
+def sort_playlist_by_uri(output_file: Path) -> None:
+    """Rewrite output_file so #EXTINF/URI entry pairs are sorted by URI.
+
+    Sorting ignores the server host (which is round-robin and arbitrary) and
+    sorts by the resource path instead, e.g. /kcs2/resources/bgm/battle/001_xxx.mp3,
+    so entries end up grouped/ordered by type and id regardless of which
+    server originally served them or when they were appended.
+    """
+    if not output_file.exists():
+        return
+
+    lines = output_file.read_text(encoding="utf-8").splitlines()
+    if not lines:
+        return
+
+    header = "#EXTM3U"
+    body = lines
+    if lines[0].strip() == "#EXTM3U":
+        body = lines[1:]
+
+    import re
+
+    entries: List[tuple[str, str]] = []
+    i = 0
+    while i < len(body):
+        line = body[i]
+        if line.startswith("#EXTINF") and i + 1 < len(body):
+            entries.append((line, body[i + 1]))
+            i += 2
+        else:
+            i += 1
+
+    def sort_key(entry: tuple[str, str]) -> str:
+        match = re.search(r"/kcs2/resources/bgm/.*$", entry[1])
+        return match.group(0) if match else entry[1]
+
+    entries.sort(key=sort_key)
+
+    with output_file.open("w", encoding="utf-8") as fh:
+        fh.write(header + "\n")
+        for extinf, url in entries:
+            fh.write(extinf + "\n")
+            fh.write(url + "\n")
+
+
 def get_last_id(output_file: Path, type_: str, default_id: int) -> int:
     if not output_file.exists():
         return default_id
@@ -166,6 +211,8 @@ def main(argv: List[str] | None = None) -> int:
 
     last_port_id = get_last_id(out, "port", default_port_id)
     generate_m3u8_playlist(out, "port", last_port_id, servers)
+
+    sort_playlist_by_uri(out)
 
     print(f"Playlist generation finished: {out}")
     return 0
