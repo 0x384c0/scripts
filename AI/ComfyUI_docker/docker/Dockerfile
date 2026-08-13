@@ -1,7 +1,10 @@
-FROM nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
+FROM nvidia/cuda:12.6.0-cudnn-runtime-ubuntu22.04
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    PYTHONUNBUFFERED=1
+    PYTHONUNBUFFERED=1 \
+    CC=/usr/bin/gcc \
+    CXX=/usr/bin/g++ \
+    TRITON_CACHE_DIR=/venv/.triton-cache
 
 # deadsnakes gives stable Python 3.11.x; the Ubuntu 22.04 universe repo
 # only has 3.11.0rc1, which segfaults with compiled extensions (kornia_rs etc.)
@@ -11,6 +14,7 @@ RUN apt-get update && apt-get install -y software-properties-common \
     python3.11 \
     python3.11-dev \
     python3.11-venv \
+    build-essential \
     wget \
     git \
     ffmpeg \
@@ -27,11 +31,11 @@ RUN wget -qO /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py \
     && rm /tmp/get-pip.py \
     && pip install --upgrade pip
 
-# PyTorch with CUDA 12.4 — installed separately before the rest so it
+# PyTorch with CUDA 12.6 — installed separately before the rest so it
 # uses the CUDA wheel index rather than the CPU-only PyPI build
 RUN pip install --no-cache-dir \
     torch torchvision torchaudio \
-    --index-url https://download.pytorch.org/whl/cu124
+    --index-url https://download.pytorch.org/whl/cu126
 
 # 1. Get requirements.txt — local copy if ComfyUI is cloned, GitHub otherwise
 RUN --mount=type=bind,source=.,target=/context \

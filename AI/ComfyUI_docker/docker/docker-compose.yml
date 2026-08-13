@@ -13,6 +13,7 @@ services:
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - COMFYUI_UPDATE=${COMFYUI_UPDATE:-0}
     deploy:
       resources:
         reservations:
@@ -32,4 +33,3 @@ services:
       - --lowvram
       - --disable-smart-memory
       - --use-pytorch-cross-attention
-    restart: unless-stopped

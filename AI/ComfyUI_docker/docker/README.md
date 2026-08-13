@@ -10,7 +10,7 @@ SD/
 ├── .dockerignore          ← excludes venv/models/output from build context
 ├── ComfyUI/               ← https://github.com/comfyanonymous/ComfyUI (mounted at /app)
 └── docker/
-    ├── Dockerfile         ← Ubuntu 22.04 + CUDA 12.4 + Python 3.11 (deadsnakes)
+    ├── Dockerfile         ← Ubuntu 22.04 + CUDA 12.6 + Python 3.11 (deadsnakes)
     ├── docker-compose.yml
     └── README.md
 ```
@@ -66,6 +66,13 @@ If only Python files changed (no new dependencies), just restart — the code is
 ```
 docker compose restart
 ```
+
+**Update on boot** (git pull ComfyUI + upgrade its pip packages, torch excluded, into the persistent venv before launching):
+```
+docker compose up -d              # normal start
+COMFYUI_UPDATE=1 docker compose up -d   # update then start
+```
+Or on Windows, run `start-update.bat` instead of `start.bat`.
 
 ## Extra startup flags
 

@@ -19,6 +19,17 @@ fi
 
 source /venv/bin/activate
 
+if [ "$COMFYUI_UPDATE" = "1" ]; then
+    echo "[entrypoint] COMFYUI_UPDATE=1 — updating ComfyUI and pip packages..."
+    git -C /app pull --ff-only
+    grep -vE "^(torchvision|torchaudio|torch)(\s|$)" /app/requirements.txt \
+        | grep -vE "^(PyOpenGL|glfw)(\s|$)" \
+        | grep -v "^#" \
+        | grep -v "^\s*$" \
+        | pip install --upgrade --no-cache-dir -r /dev/stdin
+    echo "[entrypoint] Update complete."
+fi
+
 EXTRA_ARGS=()
 [ -n "$COMFYUI_INPUT_DIR" ]  && EXTRA_ARGS+=(--input-directory  "$COMFYUI_INPUT_DIR")
 [ -n "$COMFYUI_OUTPUT_DIR" ] && EXTRA_ARGS+=(--output-directory "$COMFYUI_OUTPUT_DIR")
