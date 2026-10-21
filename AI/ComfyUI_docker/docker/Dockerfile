@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.6.0-cudnn-runtime-ubuntu22.04
+FROM nvidia/cuda:12.9.1-cudnn-runtime-ubuntu22.04
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PYTHONUNBUFFERED=1 \
@@ -31,11 +31,11 @@ RUN wget -qO /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py \
     && rm /tmp/get-pip.py \
     && pip install --upgrade pip
 
-# PyTorch with CUDA 12.6 — installed separately before the rest so it
+# PyTorch with CUDA 12.9 (needed for RTX 50xx / sm_120) — installed separately before the rest so it
 # uses the CUDA wheel index rather than the CPU-only PyPI build
 RUN pip install --no-cache-dir \
     torch torchvision torchaudio \
-    --index-url https://download.pytorch.org/whl/cu126
+    --index-url https://download.pytorch.org/whl/cu129
 
 # 1. Get requirements.txt — local copy if ComfyUI is cloned, GitHub otherwise
 RUN --mount=type=bind,source=.,target=/context \

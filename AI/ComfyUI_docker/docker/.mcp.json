@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "comfy-mcp": {
+      "command": "docker",
+      "args": [
+        "exec", "-i",
+        "-e", "COMFY_BIN=/venv/bin/comfy",
+        "-e", "COMFYUI_URL=http://127.0.0.1:8188",
+        "comfyui", "/venv/bin/comfy-mcp"
+      ]
+    }
+  }
+}
