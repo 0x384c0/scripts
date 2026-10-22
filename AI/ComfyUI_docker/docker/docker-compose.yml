@@ -32,4 +32,6 @@ services:
       - auto
       - --lowvram
       - --disable-smart-memory
-      - --use-pytorch-cross-attention
+      - --reserve-vram
+      - "1"
+      - --use-ck-attention

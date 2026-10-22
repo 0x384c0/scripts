@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.9.1-cudnn-runtime-ubuntu22.04
+FROM nvidia/cuda:13.0.2-cudnn-runtime-ubuntu22.04
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PYTHONUNBUFFERED=1 \
@@ -6,14 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     CXX=/usr/bin/g++ \
     TRITON_CACHE_DIR=/venv/.triton-cache
 
-# deadsnakes gives stable Python 3.11.x; the Ubuntu 22.04 universe repo
-# only has 3.11.0rc1, which segfaults with compiled extensions (kornia_rs etc.)
-RUN apt-get update && apt-get install -y software-properties-common \
-    && add-apt-repository ppa:deadsnakes/ppa \
-    && apt-get update && apt-get install -y \
-    python3.11 \
-    python3.11-dev \
-    python3.11-venv \
+RUN apt-get update && apt-get install -y \
     build-essential \
     wget \
     git \
@@ -23,19 +16,28 @@ RUN apt-get update && apt-get install -y software-properties-common \
     libgomp1 \
     && rm -rf /var/lib/apt/lists/*
 
-RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.11 1 \
-    && update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
+# Stable Python 3.11.x from python-build-standalone (via uv). The Ubuntu 22.04 universe repo
+# only has 3.11.0rc1, which segfaults with compiled extensions (kornia_rs etc.), and the
+# deadsnakes PPA on Launchpad is frequently unavailable (503) and breaks the build.
+# Symlinked to /usr/bin/python3.11 so the persistent /venv (home = /usr/bin) keeps working.
+COPY --from=ghcr.io/astral-sh/uv:0.12.22 /uv /usr/local/bin/uv
+ENV UV_PYTHON_INSTALL_DIR=/opt/python
+RUN uv python install 3.11 \
+    && PY=$(readlink -f "$(uv python find --managed-python 3.11)") \
+    && ln -sf "$PY" /usr/bin/python3.11 \
+    && ln -sf /usr/bin/python3.11 /usr/bin/python3 \
+    && ln -sf /usr/bin/python3.11 /usr/bin/python \
+    && rm -f "$(dirname "$PY")/../lib/python3.11/EXTERNALLY-MANAGED" \
+    && python -m ensurepip \
+    && python -m pip install --upgrade pip \
+    && ln -sf "$(dirname "$PY")/pip3.11" /usr/local/bin/pip
 
-RUN wget -qO /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py \
-    && python /tmp/get-pip.py \
-    && rm /tmp/get-pip.py \
-    && pip install --upgrade pip
-
-# PyTorch with CUDA 12.9 (needed for RTX 50xx / sm_120) — installed separately before the rest so it
+# PyTorch with CUDA 13.0 — RTX 50xx (sm_120) native, and comfy-kitchen only enables its optimized
+# int8/nvfp4 CUDA kernels on cu130+. Installed separately before the rest so it
 # uses the CUDA wheel index rather than the CPU-only PyPI build
 RUN pip install --no-cache-dir \
     torch torchvision torchaudio \
-    --index-url https://download.pytorch.org/whl/cu129
+    --index-url https://download.pytorch.org/whl/cu130
 
 # 1. Get requirements.txt — local copy if ComfyUI is cloned, GitHub otherwise
 RUN --mount=type=bind,source=.,target=/context \
